@@ -45,10 +45,16 @@ class Intro extends React.Component {
                   <AiOutlineMail style={{ fontSize: 50 }} fill='white'/>
                 </a>
               </Logo>
+
+              <a href='mailto:noor.ahmed232003@outlook.com'
+              className='intro-contact'>
+
+              <Contact>Email</Contact>
+
+              </a>
+
           </Fade>
         </div>
-
-        <Contact>Email</Contact>
           
       </Container>
     </Router>
@@ -81,7 +87,9 @@ display: flex;
 justify-content: 'center';
 align-items: center;
 flex-direction: column;
-max-width: 40%;
+max-width: 35%;
+// max-width: 50%;
+font-size: 20px;
 text-align: justify;
 `;
 
@@ -103,13 +111,7 @@ font-weight: bolder;
 font-family: "NTR", sans-serif;
 padding: 10px 30px;
 cursor: pointer;
-border: 1px solid var(--green-bright);
 border-radius: 4px;
-.intro-contact:hover {
-  background-color: var(--lightest-navy);
-
-}
-
-`
+}`
 
 export default Intro;
