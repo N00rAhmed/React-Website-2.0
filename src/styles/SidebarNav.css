@@ -13,7 +13,7 @@
     background-color: transparent !important;
 }
   
-.sidebar-links {
+.sidebar-links{
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -23,15 +23,16 @@
     font-size: 16px;
     padding: 0.2em;
     font-weight: bold;
+
 }
   
 a {
     text-decoration: none !important;
-    color: var(--green-bright) !important;
+    color:rgb(109, 216, 219)
 }
-  
+
 a:hover {
-    color: var(--lightest-slate) !important;
+    color:aliceblue;
 }
   
 .sidebar-logos {
@@ -73,7 +74,7 @@ img {
         height: 12px;
     }
   }
-  
+
 @media only screen and (max-width: 600px) {
     .sidebar-nav {
         position: unset;
@@ -84,4 +85,7 @@ img {
         padding-left: unset;
     }
 }
-  
+
+/* .navs:hover {
+    color:red;
+} */
