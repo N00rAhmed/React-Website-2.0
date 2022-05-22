@@ -22,7 +22,7 @@ class SidebarNav extends React.Component {
   }
   render() {
     const { expanded } = this.state;
-
+// Add turquoise color to nav text and with cursor hover change to white
     const links = [
       <a href="#home">/home</a>,
       <a href="#about">/about</a>,
