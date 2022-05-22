@@ -3,6 +3,7 @@ import { Sidenav } from "rsuite";
 
 import "../styles/SidebarNav.css";
 import "react-typist/dist/Typist.css";
+import Fade from 'react-reveal/Fade';
 
 const isMobile = window.innerWidth < 600;
 
@@ -54,5 +55,6 @@ class SidebarNav extends React.Component {
     );
   }
 }
+
 
 export default SidebarNav;

@@ -36,29 +36,31 @@ class Intro extends React.Component {
         </div>
 
         <div>
-          <Fade bottom>
-            <Logo>
-                <a href='https://github.com/N00rAhmed'>
-                  <AiFillGithub style={{ fontSize: 50}} fill='white'/>
-                </a>
+          <div className='iconss'>
 
-                <a href='https://www.linkedin.com/in/noor-ahmed-b762b0225/'>
-                  <AiFillLinkedin style={{ fontSize: 50}} fill='white'/>
-                </a>
+            <Fade bottom>
 
-                <a href='mailto:noor.ahmed232003@outlook.com'>
-                  <AiOutlineMail style={{ fontSize: 50 }} fill='white'/>
-                </a>
-              </Logo>
+              <Logo>
+                  <a href='https://github.com/N00rAhmed'>
+                    <AiFillGithub style={{ fontSize: 30}} />
+                  </a>
 
-              <a href='mailto:noor.ahmed232003@outlook.com'
-              className='intro-contact'>
+                  <a href='https://www.linkedin.com/in/noor-ahmed-b762b0225/'>
+                    <AiFillLinkedin style={{ fontSize: 30}} />
+                  </a>
 
-              <Contact>Email</Contact>
+                  <a href='mailto:noor.ahmed232003@outlook.com'>
+                    <AiOutlineMail style={{ fontSize: 30 }} />
+                  </a>
+                </Logo>
 
-              </a>
+                {/* <a href='mailto:noor.ahmed232003@outlook.com'
+                className='intro-contact'>
+                </a> */}
 
-          </Fade>
+            </Fade>
+          </div>
+
         </div>
           
       </Container>
