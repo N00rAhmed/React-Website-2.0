@@ -15,15 +15,20 @@ class Intro extends React.Component {
   return(
     <Router>
       <Container>
-        <Title>
-          <Typewriter
-          onInit={(typewriter)=> {
-            typewriter
-            .typeString('Noor Ahmed')
-            .start();
-          }}
-          />
-        </Title>
+        <div id='home'>
+          <Title>
+            <div className='intro-name'>
+              <Typewriter
+              onInit={(typewriter)=> {
+                typewriter
+                .typeString('Noor Ahmed')
+                .start();
+              }}
+              />
+            </div>
+          
+          </Title>
+        </div>
         <div>
           <Fade bottom>
             <Des>hello my name is Noor and i am looking for my first job in software development. I know how to work with both front-end and backend technologies which I have explained and listed on this website.</Des>
