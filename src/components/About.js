@@ -8,7 +8,11 @@ function About() {
             <div>
                 <Fade bottom>
                     <div id="about">
-                        <AboutMe>About Me</AboutMe>
+                        <AboutMe>
+                            <div className="glow">
+                                About Me
+                            </div>
+                        </AboutMe>
                     </div>
                     
                     <Content>I have graduated from a coding bootcamp which was focused in full-stack web development. Also i am working on a few of my own personal 
@@ -42,6 +46,7 @@ function About() {
     )
   }
 
+  
 
   const Container = styled.div`
   overflow: hidden;
@@ -59,6 +64,7 @@ function About() {
   flex-direction: column;
   font-size: 40px;
   padding-top: 40px;
+  color:rgb(109, 216, 219)
   `
   const Content = styled.p`
   display: flex;

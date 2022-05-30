@@ -1,12 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import JobList from './JobList';
+import '../styles/Experience.css';
+import Fade from 'react-reveal/Fade';
 
 function Experience() {
   return (
       <Container>
           <div id='experience'>
-              <Exp>Experience</Exp>
+              <Fade bottom>
+                <Exp>
+                  <div className='titleglow'>
+                    Education & Achievements
+                  </div>
+                </Exp>
+                <JobList></JobList>
+              </Fade>
           </div>
+          
       </Container>
   )
 }
@@ -27,6 +38,7 @@ justify-content: left;
 align-items: left;
 flex-direction: column;
 font-size: 40px;
+color:rgb(109, 216, 219)
 `
 
 

@@ -5,6 +5,7 @@ import '../styles/Intro.css'
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
+import {MdOutlineEmail} from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 
