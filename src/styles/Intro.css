@@ -25,7 +25,9 @@
     bottom: 7%;
     background-color: transparent;
   }
-
+  a:hover {
+    color:aliceblue;
+}
 /* .iconss{
   color:rgb(109, 216, 219)
 } */

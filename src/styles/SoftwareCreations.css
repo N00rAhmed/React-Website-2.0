@@ -13,13 +13,14 @@
     grid-auto-flow: row;
   }
   .cards{
-    background-color: rgb(12, 30, 55);
+    /* background-color: rgb(12, 30, 55); */
+    background-color: #112240;
     width: 240px;
     height: 350px;
     margin: 10px;
     border-radius: 25px;
     padding: 10px;
-    border: 1px solid #DDD;
+    /* border: 1px solid #DDD; */
   }
   .tech{
     /* display: flex;
@@ -30,7 +31,8 @@
     padding-right: 45%;
     height: 80px;
     font-size: 13px; */
-    font-size: 10px;
+    font-family: calibri;
+    font-size: 12px;
     margin-top: 25px;
     margin-left: 10px;
   }
@@ -42,7 +44,16 @@
     margin-top: 0px;
     margin-left: 195px;
     margin-right: 10px;
-    font-size: 36px;
+    font-size: 27px;
+  }
+  .icon{
+    float: left;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: -54px;
+    margin-left: 160px;
+    margin-right: 10px;
+    font-size: 20px;
   }
   /* .logo{
     padding-top: 102%;
@@ -53,3 +64,32 @@
     justify-content: space-between;
     padding-bottom: 8px;
   } */
+
+  .cards p{
+    padding: 10px;
+}
+
+
+.cards { 
+    transition: all .4s ease-in-out; 
+}
+.cards:hover { 
+        transform: scale(1.1); 
+    }/*1.5*/
+
+.grow {
+    transition: all .2s ease-in-out; 
+}
+.grow:hover {
+    transform: scale(0.5); 
+}/*1.1*/
+.cards:hover {
+    transform: scale(1.1);
+}
+.cards:hover{
+    /* background:#112240; */
+    background:#11203a;
+
+    /* 02283D */
+    /* 03304A */
+}

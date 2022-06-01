@@ -36,7 +36,6 @@ class Intro extends React.Component {
           </Fade>
         </div>
 
-        <div>
           <div className='iconss'>
 
             <Fade bottom>
@@ -62,7 +61,6 @@ class Intro extends React.Component {
             </Fade>
           </div>
 
-        </div>
           
       </Container>
     </Router>
