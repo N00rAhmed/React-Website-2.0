@@ -15,12 +15,12 @@ function About() {
                         </AboutMe>
                     </div>
                     
-                    <Content>I have graduated from a coding bootcamp which was focused in full-stack web development. Also i am working on a few of my own personal 
-                    projects such a booking app. My plan for the future is to go in to front-end or full-stack development.</Content>
+                    <Content>I have graduated from a coding bootcamp which was focused in full-stack web development. Also I am working on my own personal 
+                    project which is a Disney+ Clone. My plan for the future is to go in to either front-end or full-stack development.</Content>
                     
                     {/* <Gif><img src="FemaleWholeLeafbird-size_restricted.gif"></img></Gif> */}
                     
-                    <Tech>Here are some technologies that i have been working with:</Tech>
+                    <Tech>Here are some technologies that I have been working with:</Tech>
 
                     <Fade bottom>
                         
@@ -39,7 +39,7 @@ function About() {
 
                     </Fade>
 
-                    <Interest>Outside of this work im interested in 3D animation and graphic design.</Interest>
+                    <Interest>Other than this my hobbies include 3D animation and graphic design.</Interest>
                 </Fade>
             </div>
         </Container>

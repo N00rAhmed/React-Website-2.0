@@ -83,9 +83,9 @@ const JobList = () => {
       duration: "Feb 2022 - May 2022",
       desc: [
           "Collaborated in groups working in an Agile environment as well as individually on projects such as building APIs and full-stack web applications",
-          "Created full-stack applications in Rect consuming APIs such as Open Weather API",
+          "Created full-stack applications in React consuming APIs such as Open Weather API",
           "Used test-driven development",
-          "Made websites using JavaScript, React, Bootstrap, HTML/CSS"
+          "Made websites using JavaScript, React.js, Bootstrap, HTML/CSS and more"
       ]
     },
     Hackathon: {
@@ -94,7 +94,7 @@ const JobList = () => {
       desc: [
         "Participated in virtual hackathon and developed a project using JavaScript",
         "Created project which could find the minimum number of fills to completely repaint a picture using 2-dimensional arrays",
-        "My project ended up getting 3rd place"
+        "My project got 3rd place"
       ]
     },
     "The Sheffield College": {
@@ -103,7 +103,7 @@ const JobList = () => {
       desc: [
         "Main subjects included Marketing, Law and Finance",
         "Collaborated in groups on work such as making presentations showing financial data",
-        "Completed Analysis on diffrent aspects of business operation and the use of promotional advertising"
+        "Completed independant work on Analysis of diffrent aspects of business operation and the use of promotional advertising"
       ]
     }
   };

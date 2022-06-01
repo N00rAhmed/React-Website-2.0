@@ -15,7 +15,7 @@ function SoftwareCreations() {
             <div className='container'>
                 <div className='cards'>
                     <SubTitle>BookList API:</SubTitle>
-                    <Des>Created API in Agile environment which follows CRUD method of operation. Node.js was used for the development and insomnia was used for testing of the API.</Des>
+                    <Des>Created API in Agile environment which follows CRUD method of operation. Node.js and MongoDB was used for the development and insomnia was used for testing of the API.</Des>
                     <div className='tech'>
                         Node.JS, Mongodb, JSON
                     </div>

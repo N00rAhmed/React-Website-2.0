@@ -32,7 +32,7 @@ class Intro extends React.Component {
         </div>
         <div>
           <Fade bottom>
-            <Des>hello my name is Noor and i am looking for my first job in software development. I know how to work with both front-end and backend technologies which I have explained and listed on this website.</Des>
+            <Des>Hello my name is Noor and I am looking for my first job in software development. I know how to work with both front-end and backend technologies which I have explained and demonstrated on this website.</Des>
           </Fade>
         </div>
 
