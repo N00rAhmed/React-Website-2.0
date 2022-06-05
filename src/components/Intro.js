@@ -9,8 +9,6 @@ import {MdOutlineEmail} from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 
-// create tags and then create another tags too store info. Similar to variables but for react. This is done to use styled components
-
 class Intro extends React.Component {
   render() {
   return(
@@ -35,31 +33,6 @@ class Intro extends React.Component {
             <Des>Hello my name is Noor and I am looking for my first job in software development. I know how to work with both front-end and backend technologies which I have explained and demonstrated on this website.</Des>
           </Fade>
         </div>
-
-          <div className='iconss'>
-
-            <Fade bottom>
-
-              <Logo>
-                  <a href='https://github.com/N00rAhmed'>
-                    <AiFillGithub style={{ fontSize: 30}} />
-                  </a>
-
-                  <a href='https://www.linkedin.com/in/noor-ahmed-b762b0225/'>
-                    <AiFillLinkedin style={{ fontSize: 30}} />
-                  </a>
-
-                  <a href='mailto:noor.ahmed232003@outlook.com'>
-                    <AiOutlineMail style={{ fontSize: 30 }} />
-                  </a>
-                </Logo>
-
-                {/* <a href='mailto:noor.ahmed232003@outlook.com'
-                className='intro-contact'>
-                </a> */}
-
-            </Fade>
-          </div>
 
           
       </Container>
@@ -99,15 +72,7 @@ font-size: 20px;
 text-align: justify;
 `;
 
-const Logo = styled.div`
-padding-top: 42px;
-width: 70px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding-bottom: 8px;
-`;
-
+// for the future
 const Contact = styled.button`
 display:flex;
 flex-direction: column;

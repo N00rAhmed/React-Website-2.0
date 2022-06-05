@@ -81,7 +81,7 @@ function SoftwareCreations() {
 
                 <div className='cards'>
                     <SubTitle>Blog Website:</SubTitle>
-                    <Des>Created a blog web application in an Agile environment which create, update and delete a blog post and also store that information within a database.</Des>
+                    <Des>Created a blog web application in an Agile environment which create, update and delete's a blog post and can also store that information within a database.</Des>
                     <div className='tech'>
                         React.js, Redux, Mongodb
                     </div>
@@ -95,7 +95,7 @@ function SoftwareCreations() {
 
                 <div className='cards'>
                     <SubTitle>Disney+ Clone</SubTitle>
-                    <Des>This project is still under development. This clone currently has login functionality, main page, navigation and smooth scroll.</Des>
+                    <Des>This project is still under development. The clone currently has login functionality, main page, navigation and smooth scroll.</Des>
                     <div className='tech'>
                         React.js, Redux, Firebase 
                     </div>

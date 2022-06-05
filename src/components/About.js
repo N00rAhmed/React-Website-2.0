@@ -22,6 +22,7 @@ function About() {
                     
                     <Tech>Here are some technologies that I have been working with:</Tech>
 
+                    
                     <Fade bottom>
                         
                         <div className="about-content">
