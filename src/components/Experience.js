@@ -29,7 +29,8 @@ flex-direction: column;
 align-items: flex-start;
 padding-left: 15%;
 padding-top: 5%;
-min-height: 100vh;
+// min-height: 100vh;
+min-height: 80vh;
 `
 
 const Exp = styled.h2`

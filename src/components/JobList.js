@@ -6,6 +6,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import '../styles/Experience.css';
+import Experience from "./Experience";
 
 const isHorizontal = window.innerWidth < 600;
 
@@ -78,6 +79,16 @@ const JobList = () => {
   }
   
   const experienceItems = {
+    "Virtual Experience": {
+      jobTitle: "Lyft Back-End Engineering Program",
+      duration: "Feb 2022 - June 2022",
+      desc: [
+          "Creating UML Class Diagram which displays systems and components required for writing the code",
+          "Refactored codebase to specification of Class Diagram",
+          "Made Unit Tests to check for any bugs",
+          "Used Test-Driven Development to further optimise solution"
+      ]
+    },
     Bootcamp: {
       jobTitle: "The Developer Academy",
       duration: "Feb 2022 - May 2022",
