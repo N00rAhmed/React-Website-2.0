@@ -104,6 +104,11 @@ function SoftwareCreations() {
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
+                    <div className='icon'>
+                        <a href='https://disn3y-plus.netlify.app/'>
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -120,7 +125,7 @@ flex-direction: column;
 align-items: flex-start;
 padding-left: 15%;
 padding-top: 5%;
-min-height: 100vh;
+min-height: 165vh;
 `
 
 const Title = styled.h2`

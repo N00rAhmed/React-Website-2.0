@@ -4,6 +4,7 @@ import SideNav from './components/SideNav';
 import About from './components/About';
 import Experience from './components/Experience';
 import SoftwareCreations from './components/SoftwareCreations';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className='App'>
@@ -11,7 +12,8 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
-        <SoftwareCreations></SoftwareCreations>        
+        <SoftwareCreations></SoftwareCreations>
+        <Footer></Footer>
       </div>
       <SideNav />
     </div>
