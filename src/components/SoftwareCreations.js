@@ -10,9 +10,10 @@ function SoftwareCreations() {
       <Fade bottom>
           <Container>
             <div id="projects">
-                <Title>Software Creations</Title>
-            </div>
-            <div className='container'>
+                    <Title>Software Creations</Title>
+                </div>
+                <Content>
+                <div className='container'>
                 <div className='cards'>
                     <SubTitle>BookList API:</SubTitle>
                     <Des>Created API in Agile environment which follows CRUD method of operation. Node.js and MongoDB was used for the development and insomnia was used for testing of the API.</Des>
@@ -111,8 +112,8 @@ function SoftwareCreations() {
                     </div>
                 </div>
             </div>
-
-            </Container>
+                </Content>
+          </Container>
 
       </Fade>
   )
@@ -126,7 +127,12 @@ align-items: flex-start;
 padding-left: 15%;
 padding-top: 5%;
 min-height: 165vh;
-`
+`;
+
+const Content = styled.div`
+margin-right: 21%;
+padding-bottom: 2%;
+`;
 
 const Title = styled.h2`
 display: flex;

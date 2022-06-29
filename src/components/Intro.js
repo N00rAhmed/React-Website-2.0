@@ -79,7 +79,7 @@ flex-direction: column;
 justify-content: center;
 font-size: 22px;
 font-weight: bolder;
-font-family: "NTR", sans-serif;
+// font-family: "NTR", sans-serif;
 padding: 10px 30px;
 cursor: pointer;
 border-radius: 4px;
