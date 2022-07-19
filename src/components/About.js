@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import pikachu from './pikachu.gif';
 function About() {
     return (
         <Container>
@@ -18,7 +19,8 @@ function About() {
                     <Content>I have graduated from a coding bootcamp which was focused in full-stack web development. Also I am working on my own personal 
                     project which is a Disney+ Clone. My plan for the future is to go in to either front-end or full-stack development.</Content>
                     
-                    {/* <Gif><img src="FemaleWholeLeafbird-size_restricted.gif"></img></Gif> */}
+                    {/* <img src={pikachu} alt='a' /> */}
+
                     
                     <Tech>Here are some technologies that I have been working with:</Tech>
 

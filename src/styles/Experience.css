@@ -4,7 +4,7 @@
 }
 
 .job-description{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 
 .joblist-duration{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .joblist-job-title{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: left;
     flex-direction: column;

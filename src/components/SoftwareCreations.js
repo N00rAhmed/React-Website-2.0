@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { AiFillGithub } from 'react-icons/ai';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import Fade from 'react-reveal/Fade';
-
+// To open a link in a new tab in React, use the <a> element and set its target prop to _blank , e.g. <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a>
 function SoftwareCreations() {
   return (
       <Fade bottom>
@@ -21,7 +21,8 @@ function SoftwareCreations() {
                         Node.JS, Mongodb, JSON
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/bookList'>
+                    {/* <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a> */}
+                        <a href='https://github.com/N00rAhmed/bookList' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -35,12 +36,12 @@ function SoftwareCreations() {
                         React.JS
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/Weather-App'>
+                        <a href='https://github.com/N00rAhmed/Weather-App' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://weather-app-33516.netlify.app'>
+                        <a href='https://weather-app-33516.netlify.app' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -54,12 +55,12 @@ function SoftwareCreations() {
                         HTML/CSS, JavaScript
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/text-based-adventure-game-js'>
+                        <a href='https://github.com/N00rAhmed/text-based-adventure-game-js' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://n00rahmed.github.io/text-based-adventure-game-js/'>
+                        <a href='https://n00rahmed.github.io/text-based-adventure-game-js/' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -73,7 +74,7 @@ function SoftwareCreations() {
                         HTML/CSS, JavaScript, JSON
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/Social-Media-Blocker'>
+                        <a href='https://github.com/N00rAhmed/Social-Media-Blocker' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -82,13 +83,18 @@ function SoftwareCreations() {
 
                 <div className='cards'>
                     <SubTitle>Blog Website:</SubTitle>
-                    <Des>Created a blog web application in an Agile environment which create, update and delete's a blog post and can also store that information within a database.</Des>
+                    <Des>Created a blog web application which creates and delete's a blog post and store's that information within a MongoDB database.</Des>
                     <div className='tech'>
-                        React.js, Redux, Mongodb
+                        Node.js, Express.js, MongoDB
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/JimboCee/TDB-REACT-BLOG'>
+                        <a href='https://github.com/N00rAhmed/nodejs-site' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='https://nodejs-blog-sitee.herokuapp.com/blogs' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
 
@@ -101,12 +107,12 @@ function SoftwareCreations() {
                         React.js, Redux, Firebase 
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/DisneyPlus-Clone'>
+                        <a href='https://github.com/N00rAhmed/DisneyPlus-Clone' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://disn3y-plus.netlify.app/'>
+                        <a href='https://disn3y-plus.netlify.app/' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>

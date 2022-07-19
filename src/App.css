@@ -2,7 +2,7 @@ body{
   background-color: rgb(6, 22, 41);
 
   color: rgb(160, 174, 184);
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
 }
 html {
   scroll-behavior: smooth;

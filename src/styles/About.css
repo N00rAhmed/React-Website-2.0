@@ -28,7 +28,8 @@
   }
   
   .about-description {
-    font-family: cursive;
+
+    font-family: 'Roboto', sans-serif;
     max-width: 700px;
     font-size: 20px;
     margin: 0;
