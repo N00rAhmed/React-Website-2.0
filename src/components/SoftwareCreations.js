@@ -3,8 +3,9 @@ import '../styles/SoftwareCreations.css'
 import styled from 'styled-components'
 import { AiFillGithub } from 'react-icons/ai';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { FaRegFolder } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
-// To open a link in a new tab in React, use the <a> element and set its target prop to _blank , e.g. <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a>
+
 function SoftwareCreations() {
   return (
       <Fade bottom>
@@ -21,7 +22,6 @@ function SoftwareCreations() {
                         Node.JS, Mongodb, JSON
                     </div>
                     <div className='github'>
-                    {/* <a href="https://google.com" target="_blank" rel="noopener noreferrer"></a> */}
                         <a href='https://github.com/N00rAhmed/bookList' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
@@ -68,7 +68,7 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
-                    <SubTitle>Social Media Blocker:</SubTitle>
+                    <SubTitle>Chrome Extension:</SubTitle>
                     <Des>This is a Google Chrome Extension which blocks social media sites, HTML/CSS animation is used to display a message. JSON was used for creating blocking functionality.</Des>
                     <div className='tech'>
                         HTML/CSS, JavaScript, JSON
@@ -126,14 +126,14 @@ function SoftwareCreations() {
 }
 
 const Container = styled.div`
-overflow: hidden;
 display: flex;
 flex-direction: column;
-align-items: flex-start;
 padding-left: 15%;
 padding-top: 5%;
 min-height: 165vh;
 `;
+
+
 
 const Content = styled.div`
 margin-right: 21%;
@@ -142,56 +142,29 @@ padding-bottom: 2%;
 
 const Title = styled.h2`
 display: flex;
-justify-content: left;
 align-items: left;
-flex-direction: column;
 font-size: 40px;
 padding-top: 40px;
 color:rgb(109, 216, 219)
 `
 // in future move logo near top after adding text so its more visible
 // const Github = styled.div`
+// add button in intro to emaiil
+// change/fix experience section
 
-// padding-left: 75%;
-// height: 0px;
-// font-size: 35px;
-// `
 const SubTitle = styled.h1`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 0px;
-padding-right: 25%;
+margin-left: 8px;
 padding-top: 5%;
 font-size: 25px;
 height: 50px;
-// height: 5px;
 `
 
 const Des = styled.p`
 display: flex;
-justify-content: center;
 align-items: center;
-flex-direction: column;
-padding: 0px;
-padding-left: 3%;
-padding-top: 7%;
-font-size: 15px;
 height: 130px;
-// height: 200px
 font-family: calibri;
 font-size: 17px;
 `
 
-// const Tech = styled.p`
-// display: flex;
-// justify-content: center;
-// align-items: center;
-// flex-direction: column;
-// padding: 0px;
-// padding-right: 43%;
-// padding-bottom: 50%;
-// font-size: 15px;
-// `
 export default SoftwareCreations
