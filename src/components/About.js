@@ -58,7 +58,10 @@ function About() {
   align-items: flex-start;
   padding-left: 15%;
   padding-top: 5%;
-  min-height: 100vh;
+//   margin-top:70px;
+//   background-color:black;
+//   min-height: 100vh;
+
   `
   const AboutMe = styled.h2`
   display: flex;
@@ -66,7 +69,8 @@ function About() {
   align-items: left;
   flex-direction: column;
   font-size: 40px;
-  padding-top: 40px;
+//   padding-top: 40px;
+  padding-top: 75px;
   color:rgb(109, 216, 219)
   `
   const Content = styled.p`

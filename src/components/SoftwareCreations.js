@@ -16,8 +16,11 @@ function SoftwareCreations() {
                 <Content>
                 <div className='container'>
                 <div className='cards'>
+                    <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>BookList API:</SubTitle>
-                    <Des>Created API in Agile environment which follows CRUD method of operation. Node.js and MongoDB was used for the development and insomnia was used for testing of the API.</Des>
+                    <Des>Allows you to create a bookList in the back-end using insomnia and update/delete data. This was created in an Agile environment.</Des>
                     <div className='tech'>
                         Node.JS, Mongodb, JSON
                     </div>
@@ -30,6 +33,9 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>Weather App:</SubTitle>
                     <Des>App that allows you to type in the name of any city to then display the weather data. OpenWeather API was used to fetch data.</Des>
                     <div className='tech'>
@@ -49,8 +55,11 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>Adventure Game:</SubTitle>
-                    <Des>The adventure game shows a story through which the user is given some options to choose from. If chosen the correct options then the game will finish but if not then it will continue to loop.</Des>
+                    <Des>Displays a story through which the user is given some options to choose from. If wrong options are chosen then the game will loop.</Des>
                     <div className='tech'>
                         HTML/CSS, JavaScript
                     </div>
@@ -68,8 +77,11 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>Chrome Extension:</SubTitle>
-                    <Des>This is a Google Chrome Extension which blocks social media sites, HTML/CSS animation is used to display a message. JSON was used for creating blocking functionality.</Des>
+                    <Des>The Chrome Extension blocks social media sites. JSON was used for blocking sites and HTML/CSS animation is used for front-end.</Des>
                     <div className='tech'>
                         HTML/CSS, JavaScript, JSON
                     </div>
@@ -82,6 +94,9 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>Blog Website:</SubTitle>
                     <Des>Created a blog web application which creates and delete's a blog post and store's that information within a MongoDB database.</Des>
                     <div className='tech'>
@@ -101,8 +116,11 @@ function SoftwareCreations() {
                 </div>
 
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
                     <SubTitle>Disney+ Clone</SubTitle>
-                    <Des>This project is still under development. The clone currently has login functionality, main page, navigation and smooth scroll.</Des>
+                    <Des>This project is still under development. Currently has login functionality and main page.</Des>
                     <div className='tech'>
                         React.js, Redux, Firebase 
                     </div>
@@ -154,15 +172,19 @@ color:rgb(109, 216, 219)
 
 const SubTitle = styled.h1`
 margin-left: 8px;
-padding-top: 5%;
+// 5
+padding-top: 3%;
 font-size: 25px;
-height: 50px;
+// height: 50px;
+height: 30px;
+// background-color:white;
 `
 
 const Des = styled.p`
 display: flex;
 align-items: center;
-height: 130px;
+// 130
+height: 100px;
 font-family: calibri;
 font-size: 17px;
 `

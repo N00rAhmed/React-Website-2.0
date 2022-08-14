@@ -5,13 +5,17 @@
     padding-left: 15%;
     padding-top: 18%;
     min-height: 100vh;
+
   }
 .intro-name{
+  /* font-family: 'Patrick Hand', cursive; */
   color:rgb(109, 216, 219)
   /* color: (109, 216, 219); */
   /* text-shadow:0px 0px 30px rgb(84, 215, 219); */
   /* color:rgb(95, 223, 223) */
 }
+
+
 
 .iconss{
     display: flex;

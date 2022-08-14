@@ -79,6 +79,18 @@ const JobList = () => {
   }
   
   const experienceItems = {
+
+    "Avtag":{
+      jobTitle: "Software Engineer Intern",
+      duration: "June 2022 - Present",
+      desc: [
+        "Developed a responsive React web application from scratch on both client and server side",
+        "Implemented Use-State to send data being given by the user on submit",
+        "Created SQL database and wrote queries to filter through information",
+        "Integrated SQL database with Node.js and React.js"
+      ]
+    },
+
     "Virtual Experience": {
       jobTitle: "Lyft Back-End Engineering Program",
       duration: "Feb 2022 - June 2022",
