@@ -147,8 +147,9 @@ const Container = styled.div`
 display: flex;
 flex-direction: column;
 padding-left: 15%;
-padding-top: 5%;
+// padding-top: 5%;
 min-height: 165vh;
+
 `;
 
 
@@ -156,13 +157,18 @@ min-height: 165vh;
 const Content = styled.div`
 margin-right: 21%;
 padding-bottom: 2%;
+// padding-bottom:15%;
+// background-color:white;
+
 `;
 
 const Title = styled.h2`
 display: flex;
 align-items: left;
 font-size: 40px;
+// font-size:50px;
 padding-top: 40px;
+
 color:rgb(109, 216, 219)
 `
 // in future move logo near top after adding text so its more visible

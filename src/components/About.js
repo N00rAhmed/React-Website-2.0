@@ -16,13 +16,14 @@ function About() {
                         </AboutMe>
                     </div>
                     
-                    <Content>I have graduated from a coding bootcamp which was focused in full-stack web development. Also I am working on my own personal 
-                    project which is a Disney+ Clone. My plan for the future is to go in to either front-end or full-stack development.</Content>
+                    <Content>I have graduated from a coding bootcamp in full-stack web development.
+                    Also I have competed in a hackathon which I got 3rd place in and I also work on my own personal 
+                    projects that you can find on my github. Currently I'm a software engineer intern, working on both client and server side using React.js, Node.js, Express.js and MSSQL.</Content>
                     
                     {/* <img src={pikachu} alt='a' /> */}
 
                     
-                    <Tech>Here are some technologies that I have been working with:</Tech>
+                    <Tech>Here are some technologies that I know how to use:</Tech>
 
                     
                     <Fade bottom>
@@ -57,7 +58,8 @@ function About() {
   flex-direction: column;
   align-items: flex-start;
   padding-left: 15%;
-  padding-top: 5%;
+//   padding-top: 5%;
+
 //   margin-top:70px;
 //   background-color:black;
 //   min-height: 100vh;
@@ -79,7 +81,7 @@ function About() {
   align-items: center;
   flex-direction: column;
   // max-width: 35%;
-  max-width: 50%;
+  max-width: 60%;
   font-size:20px;
   text-align: justify;
   `
@@ -113,7 +115,9 @@ function About() {
       "Python",
       "HTML/CSS",
       "JSON",
-      "MongoDB/Mongoose"
+      "MongoDB/Mongoose",
+      "C#",
+      "MSSQL"
     ];
 
 

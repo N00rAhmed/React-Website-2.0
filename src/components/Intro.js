@@ -10,7 +10,7 @@ import { MdEmail } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 
-import Anime from './Anime.jsx';
+import Anime from './Anime.js';
 
 class Intro extends React.Component {
   render() {
@@ -38,7 +38,7 @@ class Intro extends React.Component {
             {/* <a href='mailto:noor.ahmed232003@outlook.com' target="_blank"></a> */}
             <Email href='mailto:noor.ahmed232003@outlook.com' target="_blank">
               <MdEmail style={{ fontSize: 30}} />
-              &nbsp;Email Me
+              &nbsp;Say hi
               {/* <a href='mailto:noor.ahmed232003@outlook.com' target="_blank">Email Me</a> */}
             </Email>
           </Fade>
@@ -83,7 +83,6 @@ font-size: 20px;
 text-align: justify;
 
 // font-size: 25px;
-// font-family: 'Patrick Hand', cursive;
 `;
 
 // for the future

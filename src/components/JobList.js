@@ -85,9 +85,10 @@ const JobList = () => {
       duration: "June 2022 - Present",
       desc: [
         "Developed a responsive React web application from scratch on both client and server side",
-        "Implemented Use-State to send data being given by the user on submit",
-        "Created SQL database and wrote queries to filter through information",
-        "Integrated SQL database with Node.js and React.js"
+        "Created MSSQL database and imported data from excel spreadsheet and queried data for integration with API",
+        "Created API using node.js, express.js for routing and used GET requests and query method to access data from DataBase",
+        "Fetched data from API in react.js"
+                
       ]
     },
 
@@ -136,6 +137,7 @@ const JobList = () => {
   };
 
   return (
+    
     <div className={classes.root}>
       <Tabs
         orientation={!isHorizontal ? "vertical" : null}
@@ -148,6 +150,7 @@ const JobList = () => {
           <Tab label={isHorizontal ? `0${i}.` : key} {...a11yProps(i)} />
         ))}
       </Tabs>
+      <div className="space"></div>
       {Object.keys(experienceItems).map((key, i) => (
         <TabPanel value={value} index={i}>
           <span className="joblist-job-title">

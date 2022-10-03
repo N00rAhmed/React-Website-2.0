@@ -7,17 +7,19 @@ import Fade from 'react-reveal/Fade';
 function Experience() {
   return (
       <Container>
-          <div id='.'>
+          <div id='experience'>
               <Fade bottom>
                 <Exp>
                   <div className='titleglow'>
-                    .
+                  
                   </div>
                   <div className='title'>
                     Experience
                   </div>
                 </Exp>
-                <JobList></JobList>
+                <div className='border'>
+                  <JobList></JobList>
+                </div>
               </Fade>
           </div>
           
@@ -35,6 +37,7 @@ padding-left: 15%;
 // min-height: 100vh;
 min-height: 80vh;
 // background-color:white;
+
 `
 
 const Exp = styled.h2`
@@ -43,8 +46,10 @@ justify-content: left;
 align-items: left;
 flex-direction: column;
 font-size: 40px;
-color:rgb(109, 216, 219)
+padding-bottom:0px;
 
+// font-size: 50px;
+color:rgb(109, 216, 219)
 `
 
 
