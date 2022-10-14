@@ -15,6 +15,8 @@ function SoftwareCreations() {
                 </div>
                 <Content>
                 <div className='container'>
+
+                {/* <div className='container'> */}
                 <div className='cards'>
                     <div className='folder'>
                         <FaRegFolder size={40}/>
@@ -144,21 +146,20 @@ function SoftwareCreations() {
 }
 
 const Container = styled.div`
-display: flex;
-flex-direction: column;
-padding-left: 15%;
-// padding-top: 5%;
-min-height: 165vh;
+// display: flex;
+// flex-direction: column;
 
+padding-left: 15%;
+min-height: 165vh;
 `;
 
-
-
 const Content = styled.div`
+
+// padding-bottom:15%;
 margin-right: 21%;
 padding-bottom: 2%;
-// padding-bottom:15%;
-// background-color:white;
+// padding-bottom:25%;
+
 
 `;
 

@@ -84,6 +84,7 @@ function About() {
   max-width: 60%;
   font-size:20px;
   text-align: justify;
+
   `
 
   const Gif = styled.div`

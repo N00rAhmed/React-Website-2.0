@@ -2,12 +2,58 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+
+
+
 .container {
-    display: flex;
-    margin-right: 30px;
+    /* display: flex; */
+    /* margin-right: 30px; */
+
+    /* css grid */
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 0rem;
+  
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-rows: repeat(6,330px);
+    grid-gap: 5rem;
+    grid-auto-flow: dense; */
+
+    /* display: flex;
+    flex-wrap: wrap; */
+
+
     margin-top: 30px;
-    flex-wrap: wrap;
+
+/* ____________________________________ */
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+
+    margin-top: 30px;
+
+    flex-direction: row; */
+/* _____________________________ */
+
+
+
+    /* flex-wrap: wrap; */
+
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* background-color: aliceblue; */
   }
+
+  /* .cunt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    background-color: aliceblue;
+  } */
+
   .folder{
     /* margin-left: 180px; */
     color: rgb(109, 216, 219);
