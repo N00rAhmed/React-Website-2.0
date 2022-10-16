@@ -62,7 +62,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Caesar Cipher:</SubTitle>
-                    <Des>Creates encrypted message which can be decripted by selecting decode option. Number method is used to convert letter value to index.</Des>
+                    <Des>Creates encrypted message which can be decrypted as well. Number method was used to convert letter value to number.</Des>
                     <div className='tech'>
                         HTML/CSS, JavaScript
                     </div>
