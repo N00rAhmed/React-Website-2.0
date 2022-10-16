@@ -12,6 +12,7 @@ function SoftwareCreations() {
           <Container>
             <div id="projects">
                     <Title>Software Creations</Title>
+
                 </div>
                 <Content>
                 <div className='container'>
@@ -39,7 +40,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Weather App:</SubTitle>
-                    <Des>App that allows you to type in the name of any city to then display the weather data. OpenWeather API was used to fetch data.</Des>
+                    <Des>Allows you to type in the name of any city to then display the weather data. OpenWeather API was used to fetch data.</Des>
                     <div className='tech'>
                         React.JS
                     </div>
@@ -122,7 +123,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Disney+ Clone</SubTitle>
-                    <Des>This project is still under development. Currently has login functionality and main page.</Des>
+                    <Des>This project is still under development. This web app shows the UI of Disney Plus and currently has login functionality and main page.</Des>
                     <div className='tech'>
                         React.js, Redux, Firebase 
                     </div>

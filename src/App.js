@@ -1,8 +1,12 @@
 import './App.css';
+import {BrowserRouter as Router} from 'react-router-dom';
+
 import Intro from './components/Intro';
 import SideNav from './components/SideNav';
 import About from './components/About';
 import Experience from './components/Experience';
+import Cards from './components/Cards';
+
 import SoftwareCreations from './components/SoftwareCreations';
 import Footer from './components/Footer';
 function App() {
@@ -12,6 +16,11 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
+
+        {/* <Router>
+    <Cards />
+  </Router> */}
+
         <SoftwareCreations></SoftwareCreations>
         <Footer></Footer>
       </div>
