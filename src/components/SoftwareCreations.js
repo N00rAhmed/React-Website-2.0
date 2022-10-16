@@ -61,18 +61,18 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>Adventure Game:</SubTitle>
-                    <Des>Displays a story through which the user is given some options to choose from. If wrong options are chosen then the game will loop.</Des>
+                    <SubTitle>Caesar Cipher:</SubTitle>
+                    <Des>Creates encrypted message which can be decripted by selecting decode option. Number method is used to convert letter value to index.</Des>
                     <div className='tech'>
                         HTML/CSS, JavaScript
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/text-based-adventure-game-js' target="_blank">
+                        <a href='https://github.com/N00rAhmed/Caesar-Cipher' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://n00rahmed.github.io/text-based-adventure-game-js/' target="_blank">
+                        <a href='https://n00rahmed.github.io/Caesar-Cipher/' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
