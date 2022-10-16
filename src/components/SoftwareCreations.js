@@ -40,7 +40,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Weather App:</SubTitle>
-                    <Des>Allows you to type in the name of any city to then display the weather data. OpenWeather API was used to fetch data.</Des>
+                    <Des>Allows you to type in name of any city and display's the weather data. OpenWeather API was used to fetch data.</Des>
                     <div className='tech'>
                         React.JS
                     </div>
