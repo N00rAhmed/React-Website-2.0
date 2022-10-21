@@ -1,0 +1,27 @@
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.car {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    width: 15rem;
+    height: 21rem;
+    border-radius: 25px;
+  }
+  
+  .cardss {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    
+  }
+  
+  @media (min-width: 600px) {
+    .cardss { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cardss { grid-template-columns: repeat(3, 1fr); }
+  }

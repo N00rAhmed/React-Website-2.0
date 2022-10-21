@@ -147,19 +147,21 @@ function SoftwareCreations() {
 }
 
 const Container = styled.div`
-// display: flex;
-// flex-direction: column;
-
-padding-left: 15%;
-min-height: 165vh;
+// padding-left: 15%;
+// min-height: 165vh;
 `;
 
 const Content = styled.div`
+// display:flex;
+// align-items: left;
+// padding-right:5%;
+// padding-bottom: 2%;
+display: flex;
+align-items: right;
+// font-size: 40px;
+padding-top: 40px;
 
-// padding-bottom:15%;
-margin-right: 21%;
-padding-bottom: 2%;
-// padding-bottom:25%;
+padding-right:15%;
 
 
 `;
@@ -168,8 +170,9 @@ const Title = styled.h2`
 display: flex;
 align-items: left;
 font-size: 40px;
-// font-size:50px;
 padding-top: 40px;
+
+padding-left:15%;
 
 color:rgb(109, 216, 219)
 `

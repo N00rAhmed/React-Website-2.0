@@ -7,6 +7,8 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Cards from './components/Cards';
 
+import Grid from './components/Grid';
+
 import SoftwareCreations from './components/SoftwareCreations';
 import Footer from './components/Footer';
 function App() {
@@ -22,6 +24,8 @@ function App() {
   </Router> */}
 
         <SoftwareCreations></SoftwareCreations>
+
+        <Grid></Grid>
         <Footer></Footer>
       </div>
       <SideNav />
