@@ -7,7 +7,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Cards from './components/Cards';
 
-import Grid from './components/Grid';
+// import Grid from './components/Grid';
 
 import SoftwareCreations from './components/SoftwareCreations';
 import Footer from './components/Footer';
@@ -25,7 +25,7 @@ function App() {
 
         <SoftwareCreations></SoftwareCreations>
 
-        <Grid></Grid>
+        {/* <Grid></Grid> */}
         <Footer></Footer>
       </div>
       <SideNav />

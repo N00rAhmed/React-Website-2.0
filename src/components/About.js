@@ -76,12 +76,13 @@ function About() {
   color:rgb(109, 216, 219)
   `
   const Content = styled.p`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
   // max-width: 35%;
-  max-width: 60%;
+//   max-width: 60%;
+    width:60%;
   font-size:20px;
   text-align: justify;
 
@@ -94,19 +95,19 @@ function About() {
   `
   
   const Tech = styled.p`
-  display: flex;
-  justify-content: left;
-  text-align: justify;
-  flex-direction: column;
+//   display: flex;
+//   justify-content: left;
+//   text-align: justify;
+//   flex-direction: column;
   font-size:20px;
-  max-width:35%;
+//   max-width:35%;
   `
   const Interest = styled.p`
-  display: flex;
-  justify-content: left;
-  text-align: justify;
-  flex-direction: column;
-  max-width:35%;
+//   display: flex;
+//   justify-content: left;
+//   text-align: justify;
+//   flex-direction: column;
+  width:35%;
   font-size:20px;
   padding-top: 4%;
   `

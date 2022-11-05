@@ -28,22 +28,24 @@ function Experience() {
 }
 
 const Container = styled.div`
-overflow: hidden;
-display: flex;
+// overflow: hidden;
+// display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding-left: 15%;
 // padding-top: 5%;
 // min-height: 100vh;
-min-height: 80vh;
+
+// min-height: 80vh;
+
 // background-color:white;
 
 `
 
 const Exp = styled.h2`
-display: flex;
-justify-content: left;
-align-items: left;
+// display: flex;
+// justify-content: left;
+// align-items: left;
 flex-direction: column;
 font-size: 40px;
 padding-bottom:0px;

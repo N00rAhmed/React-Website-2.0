@@ -65,20 +65,20 @@ padding-top: 5%;
 `;
 
 const Title = styled.h1`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// flex-direction: column;
 padding: 0px;
 font-size: 60px;
 `;
 
 const Des = styled.p`
-display: flex;
-justify-content: 'center';
-align-items: center;
-flex-direction: column;
-max-width: 35%;
+// display: flex;
+// justify-content: 'center';
+// align-items: center;
+// flex-direction: column;
+width: 35%;
 font-size: 20px;
 text-align: justify;
 

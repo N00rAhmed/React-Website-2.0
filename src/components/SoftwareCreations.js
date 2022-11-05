@@ -159,7 +159,7 @@ const Content = styled.div`
 display: flex;
 align-items: right;
 // font-size: 40px;
-padding-top: 40px;
+// padding-top: 40px;
 
 padding-right:15%;
 
