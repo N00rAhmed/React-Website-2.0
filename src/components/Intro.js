@@ -53,15 +53,15 @@ class Intro extends React.Component {
 
 
 const Container = styled.section`
-overflow: hidden;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+// overflow: hidden;
+// display: flex;
+// flex-direction: column;
+// align-items: flex-start;
 padding-left: 15%;
 padding-top: 5%;
 // min-height: 100vh;
 // min-height: 80vh;
-// background-color:white;
+
 `;
 
 const Title = styled.h1`
@@ -78,9 +78,13 @@ const Des = styled.p`
 // justify-content: 'center';
 // align-items: center;
 // flex-direction: column;
+
 width: 35%;
 font-size: 20px;
 text-align: justify;
+// background-color: aliceblue;
+
+
 
 // font-size: 25px;
 `;

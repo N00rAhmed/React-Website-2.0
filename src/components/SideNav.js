@@ -69,5 +69,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding-bottom: 0px;
+
 `;
 export default SidebarNav;

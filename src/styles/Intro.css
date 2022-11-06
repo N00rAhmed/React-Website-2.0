@@ -3,9 +3,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 15%;
-    padding-top: 18%; */
-
-    /* min-height: 100vh; */
+    padding-top: 18%;
+    min-height: 100vh; */
 
   }
 .intro-name{
@@ -36,3 +35,4 @@
 /* .iconss{
   color:rgb(109, 216, 219)
 } */
+

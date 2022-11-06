@@ -58,12 +58,10 @@ function About() {
   flex-direction: column;
   align-items: flex-start;
   padding-left: 15%;
-//   padding-top: 5%;
-
+  padding-top: 5%;
 //   margin-top:70px;
 //   background-color:black;
 //   min-height: 100vh;
-
   `
   const AboutMe = styled.h2`
   display: flex;
@@ -85,7 +83,6 @@ function About() {
     width:60%;
   font-size:20px;
   text-align: justify;
-
   `
 
   const Gif = styled.div`
