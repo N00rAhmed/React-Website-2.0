@@ -17,7 +17,6 @@ function SoftwareCreations() {
                 <Content>
                 <div className='container'>
 
-                {/* <div className='container'> */}
                 <div className='cards'>
                     <div className='folder'>
                         <FaRegFolder size={40}/>
@@ -123,7 +122,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Disney+ Clone</SubTitle>
-                    <Des>This project is still under development. This web app shows the UI of Disney Plus and currently has login functionality and main page.</Des>
+                    <Des>This web app shows the UI of Disney Plus and currently has login functionality and main page.</Des>
                     <div className='tech'>
                         React.js, Redux, Firebase 
                     </div>
@@ -147,19 +146,11 @@ function SoftwareCreations() {
 }
 
 const Container = styled.div`
-// padding-left: 15%;
-// min-height: 165vh;
 `;
 
 const Content = styled.div`
-// display:flex;
-// align-items: left;
-// padding-right:5%;
-// padding-bottom: 2%;
 display: flex;
 align-items: right;
-// font-size: 40px;
-// padding-top: 40px;
 
 padding-right:15%;
 
@@ -176,25 +167,17 @@ padding-left:15%;
 
 color:rgb(109, 216, 219)
 `
-// in future move logo near top after adding text so its more visible
-// const Github = styled.div`
-// add button in intro to emaiil
-// change/fix experience section
 
 const SubTitle = styled.h1`
 margin-left: 8px;
-// 5
 padding-top: 3%;
 font-size: 25px;
-// height: 50px;
 height: 30px;
-// background-color:white;
 `
 
 const Des = styled.p`
 display: flex;
 align-items: center;
-// 130
 height: 100px;
 font-family: calibri;
 font-size: 17px;
