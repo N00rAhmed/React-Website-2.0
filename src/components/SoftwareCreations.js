@@ -1,4 +1,7 @@
 import React from 'react'
+
+import ImgSlider from './ImgSlider';
+
 import '../styles/SoftwareCreations.css'
 import styled from 'styled-components'
 import { AiFillGithub } from 'react-icons/ai';
@@ -13,6 +16,10 @@ function SoftwareCreations() {
             <div id="projects">
                     <Title>Software Creations</Title>
 
+                    <Container2>
+                        <ImgSlider />
+                    </Container2>
+
                 </div>
                 <Content>
                 <div className='container'>
@@ -21,16 +28,22 @@ function SoftwareCreations() {
                     <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>BookList API:</SubTitle>
-                    <Des>Allows you to create a bookList in the back-end using insomnia and update/delete data. This was created in an Agile environment.</Des>
+                    <SubTitle>CRUD API:</SubTitle>
+                    <Des>This is API can perform CRUD operations to task data from my task tracker application. This is done via GET, POST, PUT and DELETE requests sent to the database.</Des>
                     <div className='tech'>
-                        Node.JS, Mongodb, JSON
+                        Node.JS, Express.js, Mongodb
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/bookList' target="_blank">
+                        <a href='https://github.com/N00rAhmed/CRUD-API' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
+                    <div className='icon'>
+                        <a href='https://apicrud-n1uz.onrender.com/api/tasks' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
 
                 </div>
 
@@ -38,18 +51,18 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>Weather App:</SubTitle>
-                    <Des>Allows you to type in name of any city and display's the weather data. OpenWeather API was used to fetch data.</Des>
+                    <SubTitle>Task Tracker</SubTitle>
+                    <Des>This application can create and keep track of multiple tasks. Once your have completed a task you can delete it.</Des>
                     <div className='tech'>
-                        React.JS
+                        MongoDB, Express.js, React.JS, Node.js
                     </div>
                     <div className='github'>
-                        <a href='https://github.com/N00rAhmed/Weather-App' target="_blank">
+                        <a href='https://github.com/N00rAhmed/MERN-Frontend' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://weather-app-33516.netlify.app' target="_blank">
+                        <a href='https://m3rn-task-app.netlify.app' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -110,7 +123,7 @@ function SoftwareCreations() {
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='https://nodejs-blog-sitee.herokuapp.com/blogs' target="_blank">
+                        <a href='https://nodejsblog.onrender.com/blogs' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -144,6 +157,18 @@ function SoftwareCreations() {
       </Fade>
   )
 }
+
+const Container2 = styled.main`
+position: relative;
+overflow-x: hidden;
+overflow-y: hidden;
+
+display: block;
+
+padding: 0 calc(13.5vw + 15px);
+
+`;
+
 
 const Container = styled.div`
 `;

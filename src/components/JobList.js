@@ -80,9 +80,9 @@ const JobList = () => {
   
   const experienceItems = {
 
-    "Avtag":{
+    "Flytag Flight Support":{
       jobTitle: "Software Engineer Intern",
-      duration: "June 2022 - Present",
+      duration: "June 2022 - Dec 2022",
       desc: [
         "Developed a responsive React web application from scratch on both client and server side",
         "Created MSSQL database and imported data from excel spreadsheet and queried data for integration with API",
@@ -121,13 +121,13 @@ const JobList = () => {
         "My project got 3rd place"
       ]
     },
-    "The Sheffield College": {
-      jobTitle: "BTECH Business Level 3 National Extended Diploma",
-      duration: "Sept 2019 - July 2021",
+    "Open Source": {
+      jobTitle: "Open Source Contributer",
+      duration: "July 2021 - Present",
       desc: [
-        "Main subjects included Marketing, Law and Finance",
-        "Collaborated in groups on work such as making presentations showing financial data",
-        "Completed independant work on Analysis of diffrent aspects of business operation and the use of promotional advertising"
+        "Currently contributing to Rocket Chat, one of the largest open source repositories in the world",
+        "Also I make regular commits to my own projects",
+        "I have extensive knowledge on making commits, pushes, branches and have worked in an Agile environment using these tools"
       ]
     }
   };

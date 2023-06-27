@@ -11,6 +11,7 @@
     display: grid;
     padding-left: 17%;
     gap:1rem;
+    padding-top:5%
     /* background-color: aqua; */
     /* margin-top: 30px; */
 
@@ -46,6 +47,9 @@
     border-radius: 25px;
 
   }
+
+   
+
   .tech{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;

@@ -1,0 +1,180 @@
+import styled from "styled-components";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+import { AiFillGithub } from "react-icons/ai";
+import { BsBoxArrowUpRight } from "react-icons/bs";
+import { FaRegFolder } from "react-icons/fa";
+
+import Portfolio from "../images/portfolio.PNG";
+import TaskTracker from "../images/taskapp.PNG";
+import Suhbah from "../images/suhbah.png";
+import Disney from "../images/disneyplus.PNG";
+
+const ImgSlider = (props) => {
+  let settings = {
+    dots: true,
+    // infinite: true,
+    // speed: 500,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
+    // autoplay: true,
+  };
+
+  return (
+    <Carourel {...settings}>
+      <Wrap>
+        <a>
+          <img src={TaskTracker} alt="" />
+          <p className="image-caption">
+            This was made using MERN
+            <div className='github'>
+                        <a href='https://github.com/N00rAhmed/MERN-Frontend' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+            <div className="icon">
+              <a href="https://m3rn-task-app.netlify.app" target="_blank">
+                <BsBoxArrowUpRight />
+              </a>
+            </div>
+          </p>
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src={Suhbah} alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src={Disney} alt="" />
+        </a>
+      </Wrap>
+    </Carourel>
+  );
+};
+
+const Carourel = styled(Slider)`
+  margin-top: 20px;
+
+  & > button {
+    opacity: 0;
+    height: 100%;
+    width: 5vw;
+    z-index: 1;
+
+    &:hover {
+      opacity: 1;
+      transition: opacity 0.2s ease 0s;
+    }
+  }
+
+  ul li button {
+    &:before {
+      font-size: 10px;
+      color: rgb(150, 158, 171);
+    }
+  }
+
+  li.slick-active button:before {
+    color: white;
+  }
+
+  .slick-list {
+    overflow: initial;
+  }
+
+  .slick-prev {
+    left: -75px;
+  }
+
+  .slick-next {
+    right: -75px;
+  }
+`;
+
+const Wrap = styled.div`
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+
+  a {
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 4px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .image-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: black;
+      padding: 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .github{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 13px;
+        margin-top: -73px;
+        margin-left: 90%;
+        margin-right: 10px;
+        font-size: 35px;
+  
+        a:hover {
+          color: black; /* Updated to black */
+        }
+      }
+  
+    
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 13px;
+      margin-top: -78px;
+      margin-left: 80%;
+      margin-right: 10px;
+      font-size: 35px;
+
+      a:hover {
+        color: black; /* Updated to black */
+      }
+    }
+
+    &:hover {
+      padding: 0;
+      border: 4px solid rgba(249, 249, 249, 0.8);
+      transition-duration: 300ms;
+
+      .icon a:hover {
+        color: black; /* Updated to black */
+      }
+
+      .github a:hover {
+        color: black; /* Updated to black */
+      }
+
+    }
+  }
+`;
+
+export default ImgSlider;
