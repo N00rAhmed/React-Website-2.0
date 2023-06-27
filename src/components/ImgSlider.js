@@ -15,11 +15,11 @@ import Disney from "../images/disneyplus.PNG";
 const ImgSlider = (props) => {
   let settings = {
     dots: true,
-    // infinite: true,
-    // speed: 500,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
-    // autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
   };
 
   return (
