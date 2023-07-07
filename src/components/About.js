@@ -16,10 +16,11 @@ function About() {
                     </div>
                     
                     <Content>I have graduated from a coding bootcamp in full-stack web development.
-                    Also I have competed in a hackathon which I got 3rd place in and I also work on my own personal 
-                    projects that you can find on my github. Currently I'm a software engineer intern, working on both client and server side using React.js, Node.js, Express.js and MSSQL.</Content>
+                    Also I have worked with an organization as a Full-Stack Engineer, developing a community website which was built using 
+                    MERN stack. Currently I'm a software engineer intern, working on both client and server side using React.js,
+                     Node.js, Express.js and MSSQL.</Content>
                     
-                    <Tech>Here are some technologies that I know how to use:</Tech>
+                    <Tech>Here are the technologies that I know how to use:</Tech>
 
                     
                     <Fade bottom>
@@ -39,7 +40,7 @@ function About() {
 
                     </Fade>
 
-                    <Interest>Other than this my hobbies include 3D animation and graphic design.</Interest>
+                    <Interest>Other than this my hobbies include 2D animation and graphic design.</Interest>
                 </Fade>
             </div>
         </Container>
@@ -82,12 +83,16 @@ function About() {
     const tech_stack = [
       "Javascript",
       "React.js",
+      "Node.js",
+      "Express.js",
       "Python",
       "HTML/CSS",
       "JSON",
       "MongoDB/Mongoose",
       "C#",
-      "MSSQL"
+      "MSSQL",
+      "SQLITE",
+      "Windows Forms",
     ];
 
 

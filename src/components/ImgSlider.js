@@ -28,7 +28,7 @@ const ImgSlider = (props) => {
         <a>
           <img src={TaskTracker} alt="" />
           <p className="image-caption">
-            This was made using MERN
+            {/* This was made using MERN */}
             <div className='github'>
                         <a href='https://github.com/N00rAhmed/MERN-Frontend' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
@@ -47,12 +47,42 @@ const ImgSlider = (props) => {
       <Wrap>
         <a>
           <img src={Suhbah} alt="" />
+          <p className="image-caption">
+            {/* This was made using MERN */}
+            <div className='github'>
+                        <a href='https://github.com/N00rAhmed/MN-Muslim-Website' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+            <div className="icon">
+              <a href="https://mnmuslims.netlify.app" target="_blank">
+                <BsBoxArrowUpRight />
+              </a>
+            </div>
+          </p>
+
         </a>
       </Wrap>
 
       <Wrap>
         <a>
           <img src={Disney} alt="" />
+          <p className="image-caption">
+            {/* This was made using MERN */}
+            <div className='github'>
+                        <a href='https://github.com/N00rAhmed/DisneyPlus-Clone' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+            <div className="icon">
+              <a href="https://disn3y-plus.netlify.app" target="_blank">
+                <BsBoxArrowUpRight />
+              </a>
+            </div>
+          </p>
+
         </a>
       </Wrap>
     </Carourel>
@@ -105,8 +135,8 @@ const Wrap = styled.div`
 
   a {
     border-radius: 4px;
-    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
-      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    // box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    //   rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     cursor: pointer;
     display: block;
     position: relative;
@@ -119,7 +149,7 @@ const Wrap = styled.div`
 
     .image-caption {
       position: absolute;
-      bottom: 0;
+      // bottom: 0;
       left: 0;
       right: 0;
       color: black;
@@ -132,11 +162,11 @@ const Wrap = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 13px;
-        margin-top: -73px;
+        // padding: 13px;
+        margin-top: -93px;
         margin-left: 90%;
         margin-right: 10px;
-        font-size: 35px;
+        font-size: 20px;
   
         a:hover {
           color: black; /* Updated to black */
@@ -149,11 +179,12 @@ const Wrap = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 13px;
-      margin-top: -78px;
+      // padding: 13px;
+      // margin-top: -68px;
+      margin-top: -56px;
       margin-left: 80%;
       margin-right: 10px;
-      font-size: 35px;
+      font-size: 20px;
 
       a:hover {
         color: black; /* Updated to black */

@@ -92,16 +92,29 @@ const JobList = () => {
       ]
     },
 
-    "Virtual Experience": {
-      jobTitle: "Lyft Back-End Engineering Program",
-      duration: "Feb 2022 - June 2022",
+    "Suhbah Collective":{
+      jobTitle: "Full-Stack Developer",
+      duration: "May 2023 - July 2023",
       desc: [
-          "Creating UML Class Diagram which displays systems and components required for writing the code",
-          "Refactored codebase to specification of Class Diagram",
-          "Made Unit Tests to check for any bugs",
-          "Used Test-Driven Development to further optimise solution"
+        "Made CRUD API using Node.js, Express.js and MongoDB/Mongoose",
+        "Used GET, POST, PUT and DELETE requests to manipulate data",
+        "Designed UI using React.js and fetched data from API here",
+        "Created user authentication for admin using json web tokens",
+        "Added functionaluty such as adding announcements, add businesses and delete businesses etc."
       ]
     },
+
+    "Opengenus":{
+      jobTitle: "Software Developer Intern",
+      duration: "May 2023 - July 2023",
+      desc: [
+        "Written around 10 articles in various subject areas such as react routing, language translation in python etc.",
+        "Created X and O game using HTML/CSS and JavaScript",
+        "Made API calls to Google Translate API using Python"
+      ]
+    },
+
+
     Bootcamp: {
       jobTitle: "The Developer Academy",
       duration: "Feb 2022 - May 2022",
@@ -112,24 +125,7 @@ const JobList = () => {
           "Made websites using JavaScript, React.js, Bootstrap, HTML/CSS and more"
       ]
     },
-    Hackathon: {
-      jobTitle: "BCS, The Chartered Institute for IT",
-      duration: "Apr 2022 - Apr 2022",
-      desc: [
-        "Participated in virtual hackathon and developed a project using JavaScript",
-        "Created project which could find the minimum number of fills to completely repaint a picture using 2-dimensional arrays",
-        "My project got 3rd place"
-      ]
-    },
-    "Open Source": {
-      jobTitle: "Open Source Contributer",
-      duration: "July 2021 - Present",
-      desc: [
-        "Currently contributing to Rocket Chat, one of the largest open source repositories in the world",
-        "Also I make regular commits to my own projects",
-        "I have extensive knowledge on making commits, pushes, branches and have worked in an Agile environment using these tools"
-      ]
-    }
+
   };
 
   const handleChange = (event, newValue) => {
