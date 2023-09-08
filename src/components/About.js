@@ -67,6 +67,7 @@ function About() {
   color:rgb(109, 216, 219)
   `
   const Content = styled.p`
+//   margin-right: 50%;
   width:60%;
   font-size:20px;
   text-align: justify;

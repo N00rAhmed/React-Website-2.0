@@ -3,6 +3,10 @@ import { Sidenav } from "rsuite";
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
+import { ImNewspaper } from 'react-icons/im';
+
+
+// import { ArticleIcon } from '@mui/icons-material/Article';
 import styled from 'styled-components'
 
 import "../styles/SidebarNav.css";
@@ -45,11 +49,15 @@ class SidebarNav extends React.Component {
                     <AiFillLinkedin style={{ fontSize: 30}} />
                   </a>
 
+                  <a href='https://noor-ahmed.hashnode.dev' target="_blank">
+                    <ImNewspaper style={{ fontSize: 30}} />
+                  </a>
+
                   <a href='mailto:noor.ahmed232003@outlook.com' target="_blank">
                     <AiOutlineMail style={{ fontSize: 30 }} />
                   </a>
                 </Logo>
-
+{/* MdArticle */}
                 {/* <a href='mailto:noor.ahmed232003@outlook.com'
                 className='intro-contact'>
                 </a> */}
@@ -64,7 +72,8 @@ class SidebarNav extends React.Component {
 
 const Logo = styled.div`
 padding-top: 0px;
-width: 70px;
+width: 105px;
+// width: 70px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
