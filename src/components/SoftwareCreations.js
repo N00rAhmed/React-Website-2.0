@@ -93,11 +93,11 @@ function SoftwareCreations() {
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
-                    {/* <div className='icon'>
+                    <div className='icon'>
                         <a href={exe} download>
                             <FiDownload style={{fontsize: 30}} />
                         </a>
-                    </div> */}
+                    </div>
 
                 </div>
 
