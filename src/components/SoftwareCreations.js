@@ -4,9 +4,17 @@ import ImgSlider from './ImgSlider';
 
 import '../styles/SoftwareCreations.css'
 import styled from 'styled-components'
+
+import exe from '../download/TASK-APP.exe';
+
 import { AiFillGithub } from 'react-icons/ai';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { FaRegFolder } from 'react-icons/fa';
+
+import { BsDownload } from 'react-icons/bs';
+import { FiDownload } from 'react-icons/fi'
+
+
 import Fade from 'react-reveal/Fade';
 
 function SoftwareCreations() {
@@ -24,7 +32,7 @@ function SoftwareCreations() {
                 <Content>
                 <div className='container'>
 
-                <div className='cards'>
+                {/* <div className='cards'>
                     <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -45,14 +53,14 @@ function SoftwareCreations() {
                     </div>
 
 
-                </div>
+                </div> */}
 
                 <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Task Tracker</SubTitle>
-                    <Des>This application can create and keep track of multiple tasks. Once your have completed a task you can delete it.</Des>
+                    <Des>This application can create and keep track of multiple tasks. Once you have completed a task you can delete it.</Des>
                     <div className='tech'>
                         MongoDB, Express.js, React.JS, Node.js
                     </div>
@@ -68,6 +76,64 @@ function SoftwareCreations() {
                     </div>
 
                 </div>
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Worklist Manager</SubTitle>
+                    <Des>This app enables users to register, login, manage tasks (create, edit, delete), and mark them as completed or incomplete.</Des>
+
+                    <div className='tech'>
+                        .NET Framework, Windows Forms, CockroachDB (SQL)
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Task-Manager' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href={exe} download>
+                        {/* <a href='/somefile.txt' download>Click to download</a> */}
+
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
+                            {/* <BsDownload style={{fontsize: 30}} /> */}
+                            <FiDownload style={{fontsize: 30}} />
+
+                            {/* FiDownload */}
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>pending</SubTitle>
+                    <Des>currently there isnt anything here but there will be a full-stack deployed php and mysql web app here.</Des>
+                    <div className='tech'>
+                        php, mysql
+                    </div>
+                    <div className='github'>
+                        <a href='' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+
 
                 <div className='cards'>
                 <div className='folder'>
@@ -91,7 +157,7 @@ function SoftwareCreations() {
 
                 </div>
 
-                <div className='cards'>
+                {/* <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -107,7 +173,7 @@ function SoftwareCreations() {
                     </div>
 
                 </div>
-
+ */}
                 <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>

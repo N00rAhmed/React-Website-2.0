@@ -192,23 +192,23 @@ const Wrap = styled.div`
       margin-right: 10px;
       font-size: 20px;
 
-      a:hover {
-        color: black; /* Updated to black */
-      }
+      // a:hover {
+      //   color: black; /* Updated to black */
+      // }
     }
 
-    &:hover {
-      padding: 0;
-      border: 4px solid rgba(249, 249, 249, 0.8);
-      width: 97%;
-      transition-duration: 300ms;
+    // &:hover {
+    //   padding: 0;
+    //   border: 4px solid rgba(249, 249, 249, 0.8);
+    //   width: 97%;
+    //   transition-duration: 300ms;
 
       .icon a:hover {
-        color: black; /* Updated to black */
+        color: black;
       }
 
       .github a:hover {
-        color: black; /* Updated to black */
+        color: black;
       }
 
     }

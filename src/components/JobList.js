@@ -79,10 +79,29 @@ const JobList = () => {
   }
   
   const experienceItems = {
+// GirlsandBoysinTech
 
-    "Flytag Flight Support":{
+"GirlsandBoysinTech":{
+  jobTitle: "Application Developer",
+  duration: "Oct 2023 - present",
+  desc: [
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    // "Developed a responsive React web application from scratch on both client and server side",
+    // "Created MSSQL database and imported data from excel spreadsheet and queried data for integration with API",
+    // "Created API using node.js, express.js for routing and used GET requests and query method to access data from DataBase",
+    // "Fetched data from API in react.js"
+            
+  ]
+},
+
+
+   
+  "Flytag Flight Support":{
       jobTitle: "Software Engineer Intern",
-      duration: "June 2022 - Dec 2022",
+      duration: "July 2022 - Oct 2023",
       desc: [
         "Developed a responsive React web application from scratch on both client and server side",
         "Created MSSQL database and imported data from excel spreadsheet and queried data for integration with API",

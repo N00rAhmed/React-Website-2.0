@@ -33,6 +33,7 @@ class Intro extends React.Component {
         <div>
           <Fade bottom>
             <Des>Hello my name is Noor and I am looking for a job in software development. I know how to work with both front-end and backend technologies which I have explained and demonstrated on this website.</Des>
+              {/*<Des>Hello my name is Noor Ahmed and I am looking for a job in software development. I know how to use a wide range of tech-stacks/technologies and I can also deploy applications which you can view and use on this website.</Des> */}
 
             <Email href='mailto:noor.ahmed232003@outlook.com' target="_blank">
               <MdEmail style={{ fontSize: 30}} />
