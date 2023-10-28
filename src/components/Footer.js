@@ -1,11 +1,21 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import styled from 'styled-components'
+import moment from 'moment';
 
 function Footer() {
+
+  const [currentYear, setCurrentYear] = useState('');
+  
+  useEffect(() => {
+    const year = moment().format('YYYY');
+    setCurrentYear(year);
+  }, []);
+
+
   return (
       <div>
-          <Bottom>Built and designed by Noor Ahmed.</Bottom>
-          <Auth>All rights reserved. ©</Auth>
+          <Bottom>Built and designed by Noor Ahmed</Bottom>
+          <Auth>&copy; {currentYear} all rights reserved</Auth>
       </div>
   )
 }

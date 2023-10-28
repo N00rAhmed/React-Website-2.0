@@ -168,7 +168,31 @@ function SoftwareCreations() {
 
                 </div>
  */}
+
                 <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Image API</SubTitle>
+                    <Des>This API can add images to a MongoDB database and you can search for your images by their ID and have them rendered. For more info please look at the README.MD.</Des>
+                    <div className='tech'>
+                        Node.js, Express.js, MongoDB, Postman
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Image-API' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='https://image-api-f8qs.onrender.com' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div>
+
+
+                {/* <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -188,7 +212,9 @@ function SoftwareCreations() {
                         </a>
                     </div>
 
-                </div>
+                </div> */}
+
+
 
                 <div className='cards'>
                 <div className='folder'>

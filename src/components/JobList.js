@@ -104,10 +104,10 @@ const JobList = () => {
       duration: "July 2022 - Oct 2023",
       desc: [
         "Developed a responsive React web application from scratch on both client and server side",
-        "Created MSSQL database and imported data from excel spreadsheet and queried data for integration with API",
-        "Created API using node.js, express.js for routing and used GET requests and query method to access data from DataBase",
-        "Fetched data from API in react.js"
-                
+        "Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests",
+        "Created MSSQL database and imported data from excel spreadsheet into database and queried data",
+        "Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase",
+                        
       ]
     },
 
@@ -127,11 +127,14 @@ const JobList = () => {
       jobTitle: "Software Developer Intern",
       duration: "May 2023 - July 2023",
       desc: [
-        "Written around 10 articles in various subject areas such as react routing, language translation in python etc.",
-        "Created X and O game using HTML/CSS and JavaScript",
-        "Made API calls to Google Translate API using Python"
+        "Authored 10 highly-viewed blog articles on diverse topics, reaching a wide audience of thousands on the OpenGenus IQ platform: https://iq.opengenus.org/author/noor/",
+        "Designed and implemented a Python language translation program by making API calls to Google Translate API",
+        "Developed a Python, Flask, and HTML-based prime number generator which accepts user input",
+        "Made substantial contributions to OpenGenus IQ, including articles covering essential algorithmic topics, such as using adjacency lists and matrices in Python",
+        // "Worked on multiple projects involving HTML/CSS, and JavaScript, including the creation of a car racing game and a bubble shooter game"
       ]
     },
+
 
 
     Bootcamp: {

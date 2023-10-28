@@ -14,6 +14,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiCsharp } from "react-icons/si";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
 
 // SiSqlite
 // BsFiletypeSql
@@ -42,10 +43,11 @@ function About() {
                         </AboutMe>
                     </div>
                     
-                    <Content>I have graduated from a coding bootcamp in full-stack web development.
-                    Also I have worked with an organization as a Full-Stack Engineer, developing a community website which was built using 
-                    MERN stack. Currently I'm a software engineer intern, working on both client and server side using React.js,
-                     Node.js, Express.js and MSSQL.</Content>
+                    <Content>I graduated from a full-stack web development coding bootcamp in May 2022. In total I have around 2 years of 
+                        proffesional experience working in software development. My experience ranges with various organizations and tech-stacks which have
+                        allowed me learn and grow in this field. Some of my previous work includes working as a Full-Stack Engineer, developing a community 
+                        website which was built using MERN stack and also working as a software engineer intern, developing on both client and server side using
+                        SERN stack: React.js, Node.js, Express.js and SQL Server.</Content>
                     
                     <Tech>Here are the technologies that I know how to use:</Tech>
 
@@ -68,7 +70,7 @@ function About() {
                                 <SiCsharp style={{height: "50px", width: "50px"}}/>
                                 <SiMicrosoftsqlserver style={{height: "50px", width: "50px"}}/>
                                 <SiMysql style={{height: "50px", width: "50px"}}/>
-
+                                <FaPhp style={{height: "50px", width: "50px"}} />
                                 {/* {tech_stack.map(function (tech_item, i) {
                         return (
                         <li>{tech_item}</li>
@@ -80,7 +82,7 @@ function About() {
 
                     </Fade>
 
-                    <Interest>Other than this my hobbies include 2D animation and graphic design.</Interest>
+                    <Interest>Other than this my hobbies include writing, animation and graphic design.</Interest>
                 </Fade>
             </div>
         </Container>
