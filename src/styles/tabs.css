@@ -1,0 +1,53 @@
+/* Default styles for larger screens */
+.tab-content {
+    /* display: flex; */
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 70%;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab-list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+  }
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .tab-list-active {
+    background-color: white;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .tab-content {
+      display: block;
+      margin-left: 5%;
+      margin-top: 1%;
+    }
+  
+    .tab-list {
+      /* width: 100%; */
+    }
+  
+    .tab-list-item {
+      display: block;
+      padding: 0.75rem;
+    }
+  }
+  
+
+  
