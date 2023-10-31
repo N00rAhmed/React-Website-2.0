@@ -1,16 +1,24 @@
 import React from "react";
+import styled from 'styled-components'
+
 import Tabs from "../components/Tabs";
 import "../styles/tabs.css";
 
 function NewExperience() {
   return (
+    <Container>
     <div>
-      <h1>Tabs Demo</h1>
+      <h1>New Experience Section</h1>
       <Tabs>
         <div className="tab-list-item" label="GirlsandBoysinTech">
             <div className="tab-content">
                 <div className="tab-content-item">
-                    See ya later, <em>Alligator</em>!
+                  <h4>Application Developer <br/>  Oct 2023 - present</h4>
+                  {/* <p>Oct 2023 - present</p> */}
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                 </div>
             </div>
         </div>
@@ -18,7 +26,12 @@ function NewExperience() {
         <div className="tab-list-item" label="Flytag Flight Support">
         <div className="tab-content">
             <div className="tab-content-item">
-                  After 'while, <em>Crocodile</em>!
+            <h4>Software Engineer Intern <br/>  July 2022 - Oct 2023</h4>
+            <li>Developed a responsive React web application from scratch on both client and server side</li>
+            <li>Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests</li>
+            <li>Created MSSQL database and imported data from excel spreadsheet into database and queried data</li>
+            <li>Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase</li>
+
 
         </div>
         </div>
@@ -52,7 +65,18 @@ function NewExperience() {
 
       </Tabs>
     </div>
+    </Container>
+
   );
 }
+
+
+const Container = styled.div`
+flex-direction: column;
+align-items: flex-start;
+padding-left: 15%;
+`
+
+
 
 export default NewExperience;
