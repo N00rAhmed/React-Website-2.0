@@ -59,18 +59,19 @@ function About() {
 
                             <ul className="tech-stack">
 
-                                <IoLogoJavascript style={{ height: "50px", width: "50px", backgroundColor: "#063970"}} />
-                                <FaReact style={{height: "50px", width: "50px"}} />
-                                <IoLogoNodejs style={{height: "50px", width: "50px"}} />
-                                <FaPython style={{height: "50px", width: "50px"}} />
-                                <AiOutlineHtml5 style={{height: "50px", width: "50px"}} />
-                                <FaCss3Alt style={{height: "50px", width: "50px"}} />
-                                <VscJson style={{height: "50px", width: "50px"}} />
-                                <SiMongodb style={{height: "50px", width: "50px"}} />
-                                <SiCsharp style={{height: "50px", width: "50px"}}/>
-                                <SiMicrosoftsqlserver style={{height: "50px", width: "50px"}}/>
-                                <SiMysql style={{height: "50px", width: "50px"}}/>
-                                <FaPhp style={{height: "50px", width: "50px"}} />
+                                <IoLogoJavascript className="js" style={{ height: "50px", width: "50px", borderRadius: "5px", transition: "background-color 0.9s ease" }} />
+                                {/* backgroundColor: "#063970" */}
+                                <FaReact className="react" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <IoLogoNodejs className="node" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <FaPython className="python" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <AiOutlineHtml5 className="html" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <FaCss3Alt className="css" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <VscJson className="json" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <SiMongodb className="mongo" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <SiCsharp className="csharp" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease", transition: "color 0.9s ease"}}/>
+                                <SiMicrosoftsqlserver className="sqlserver" style={{height: "50px", borderRadius: "5px", width: "50px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
+                                <SiMysql className="mysql" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
+                                <FaPhp className="php" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
                                 {/* {tech_stack.map(function (tech_item, i) {
                         return (
                         <li>{tech_item}</li>
@@ -89,7 +90,7 @@ function About() {
     )
   }
 
-  
+
 
   const Container = styled.div`
   overflow: hidden;

@@ -10,6 +10,62 @@
   grid-template-columns: repeat(3, minmax(130px, 10px));
 }
 
+
+/* .logo {
+  display: inline-block;
+  transition: background-color 0.5s ease;
+} */
+
+.js:hover {
+  color: aliceblue;
+  background-color: #fcd34d; 
+}
+.react:hover{
+  color: aliceblue;
+  background-color: aqua;
+}
+.node:hover{
+  color: aliceblue;
+  background-color: rgb(15, 121, 11);
+}
+.python:hover{
+  color: aliceblue;
+  background-color: #2d7fb2;
+}
+.html:hover{
+  color: aliceblue;
+  background-color: rgb(198, 37, 34);
+}
+.css:hover{
+  color: aliceblue;
+  background-color: rgb(42, 119, 207);
+}
+.json:hover{
+  color: #f5de19;
+  background-color: grey;
+}
+.mongo:hover{
+  color: aliceblue;
+  background-color: rgb(44, 216, 44);
+}
+.csharp:hover{
+  /* color: aliceblue; */
+  color: rgb(18, 104, 27);
+  /* background-color: rgb(18, 104, 27); */
+}
+.sqlserver:hover{
+  color: aliceblue;
+  background-color: grey;
+}
+.mysql:hover{
+  color: #005e86;
+  background-color: #dd8a00;
+}
+.php:hover{
+  color: aliceblue;
+  background-color: #818cf8;
+}
+
 @media (min-width: 600px) {
   .about-description ul {
     display: grid;
