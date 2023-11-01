@@ -4,7 +4,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import Intro from './components/Intro';
 import SideNav from './components/SideNav';
 import About from './components/About';
-import Experience from './components/Experience';
+// import Experience from './components/Experience';
 import NewExperience from './components/NewExperience';
 
 
@@ -17,7 +17,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <NewExperience />
-        <Experience></Experience>
+        {/* <Experience></Experience> */}
         <SoftwareCreations></SoftwareCreations>
         <Footer></Footer>
       </div>

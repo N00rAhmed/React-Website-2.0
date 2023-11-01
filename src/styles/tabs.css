@@ -8,7 +8,7 @@ h1{
     /* display: flex; */
     margin-left: 1%;
     margin-top: 1%;
-    width: 70%;
+    width: 80%;
   }
   
   .tabs {
@@ -32,24 +32,40 @@ h1{
   
   .tab-list-active {
     background-color: #344354;
+    /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
+    /* backdrop-filter: blur(1px); */
+
+    /* make tarnsparent maybe  */
+
+
     /* border: 2px solid black; */
     /* border-radius: 10px; */
     border-radius: 5px;
   }
-  
+ 
+  .tab-list-item:hover {
+    display: inline-block;
+    transition: background-color 0.9s ease; /* Define the property you want to transition */
+    /* background-color: white; */
+    /* background-color: #344354; */
+}
+
 
   
 
 /*   color:rgb(109, 216, 219)
  */
  .tab-list-item{
+  text-align: center;
   color:rgb(109, 216, 219);
  }
 
 .tab-list-item:hover{
+  display: inline-block;
+  transition: background-color 2s ease;
   cursor: pointer;
   color: aqua;
-  /* color: aliceblue; */
+  /* background-color: #344354; */
 }
   
 /* Default styles for larger screens */
@@ -59,11 +75,13 @@ h1{
 @media screen and (max-width: 768px) {
   .tabs {
     flex-direction: column; /* Stack items vertically on smaller screens */
+
   }
 
   .tab-list,
   .tab-content {
     width: 100%; /* Take up full width when in a column layout */
+
   }
 
   .tab-content {

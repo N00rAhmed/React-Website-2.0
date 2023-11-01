@@ -7,8 +7,10 @@ import "../styles/tabs.css";
 function NewExperience() {
   return (
     <Container>
-    <div>
-      <h1>New Experience Section</h1>
+    <div id="experience">
+      <h1>Experience</h1>
+      <Border>
+
       <Tabs>
         <div className="tab-list-item" label="GirlsandBoysinTech">
             <div className="tab-content">
@@ -64,8 +66,9 @@ function NewExperience() {
         </div>
         </div>
 
-
       </Tabs>
+      </Border>
+
     </div>
     </Container>
 
@@ -78,7 +81,13 @@ flex-direction: column;
 align-items: flex-start;
 padding-left: 15%;
 `
+const Border = styled.div`
+// border: 1px solid black;
+// border-radius: 30px;
+// height:350px;
+// width: 80%;
+// padding-top:40px;
 
-
+`
 
 export default NewExperience;

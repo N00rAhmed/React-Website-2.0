@@ -61,7 +61,7 @@ function About() {
 
                                 <IoLogoJavascript className="js" style={{ height: "50px", width: "50px", borderRadius: "5px", transition: "background-color 0.9s ease" }} />
                                 {/* backgroundColor: "#063970" */}
-                                <FaReact className="react" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <FaReact className="react" style={{height: "50px", width: "50px", borderRadius: "5px", transition: "background-color 0.9s ease"}} />
                                 <IoLogoNodejs className="node" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
                                 <FaPython className="python" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
                                 <AiOutlineHtml5 className="html" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />

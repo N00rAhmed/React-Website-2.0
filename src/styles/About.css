@@ -18,7 +18,7 @@
 
 .js:hover {
   color: aliceblue;
-  background-color: #fcd34d; 
+  background-color: #ffcc22; 
 }
 .react:hover{
   color: aliceblue;
@@ -41,7 +41,7 @@
   background-color: rgb(42, 119, 207);
 }
 .json:hover{
-  color: #f5de19;
+  color: #eac719;
   background-color: grey;
 }
 .mongo:hover{
