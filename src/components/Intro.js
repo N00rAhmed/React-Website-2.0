@@ -62,9 +62,25 @@ font-size: 60px;
 
 const Des = styled.p`
 width: 35%;
+// width: 50%;
 font-size: 20px;
 text-align: justify;
 // background-color: aliceblue;
+
+@media screen and (max-width: 820px) {
+  width: 70%;
+  // width: 60%;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  // width: 70%;
+  width: 100%;
+
+}
+
+
 `;
 
 const Email = styled.a`

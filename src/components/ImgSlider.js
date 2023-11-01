@@ -9,6 +9,7 @@ import { FaRegFolder } from "react-icons/fa";
 
 import Portfolio from "../images/portfolio.PNG";
 import TaskTracker from "../images/taskapp.PNG";
+import AirNavigationCalculator from '../images/air-nav-calc-screenshot.png';
 import Suhbah from "../images/suhbah.png";
 import Disney from "../images/disneyplus.PNG";
 
@@ -26,17 +27,17 @@ const ImgSlider = (props) => {
     <Carourel {...settings}>
       <Wrap>
         <a>
-          <img src={TaskTracker} alt="" />
+          <img src={AirNavigationCalculator} alt="" />
           <p className="image-caption">
             {/* This was made using MERN */}
-            <div className='github'>
+            {/* <div className='github'>
                         <a href='https://github.com/N00rAhmed/MERN-Frontend' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
-                    </div>
+                    </div> */}
 
             <div className="icon">
-              <a href="https://m3rn-task-app.netlify.app" target="_blank">
+              <a href="https://flytagcalc.netlify.app" target="_blank">
                 <BsBoxArrowUpRight />
               </a>
             </div>
@@ -97,35 +98,13 @@ const Carourel = styled(Slider)`
     height: 100%;
     width: 5vw;
     z-index: 1;
-
+    margin-right:230px;
     &:hover {
       opacity: 1;
       transition: opacity 0.2s ease 0s;
     }
   }
 
-  ul li button {
-    &:before {
-      font-size: 10px;
-      color: rgb(150, 158, 171);
-    }
-  }
-
-  li.slick-active button:before {
-    color: white;
-  }
-
-  .slick-list {
-    overflow: initial;
-  }
-
-  .slick-prev {
-    left: -75px;
-  }
-
-  .slick-next {
-    right: -75px;
-  }
 `;
 
 const Wrap = styled.div`
@@ -143,19 +122,19 @@ const Wrap = styled.div`
     padding: 4px;
 
     img {
-      width: 1000px;
+      // width: 1000px;
+      width: 800px;
       height: 350px;
     }
     @media (max-width: 768px) {
       img {
-        width: 100%; /* Make the image width 100% of its container */
-        height: auto; /* Allow the height to adjust proportionally */
+        width: 100%;
+        height: auto;
       }
     }
     
     .image-caption {
       position: absolute;
-      // bottom: 0;
       left: 0;
       right: 0;
       color: black;
@@ -170,7 +149,7 @@ const Wrap = styled.div`
         align-items: center;
         // padding: 13px;
         margin-top: -93px;
-        margin-left: 90%;
+        margin-left: 30%;
         margin-right: 10px;
         font-size: 20px;
   
@@ -187,21 +166,15 @@ const Wrap = styled.div`
       align-items: center;
       // padding: 13px;
       // margin-top: -68px;
-      margin-top: -56px;
-      margin-left: 80%;
-      margin-right: 10px;
+      margin-top: -60px;
+      margin-left: 20%;
+      // margin-right: 10px;
       font-size: 20px;
 
-      // a:hover {
-      //   color: black; /* Updated to black */
-      // }
+      a:hover {
+        color: black; /* Updated to black */
+      }
     }
-
-    // &:hover {
-    //   padding: 0;
-    //   border: 4px solid rgba(249, 249, 249, 0.8);
-    //   width: 97%;
-    //   transition-duration: 300ms;
 
       .icon a:hover {
         color: black;

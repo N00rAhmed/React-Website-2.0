@@ -31,12 +31,14 @@ h1{
   }
   
   .tab-list-active {
-    background-color: rgb(71, 62, 62);
-    /* border: solid #ccc; */
-    border: 2px solid black;
-    border-radius: 10px;
-    /* border-width: 1px 1px 0 1px; */
+    background-color: #344354;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    border-radius: 5px;
   }
+  
+
+  
 
 /*   color:rgb(109, 216, 219)
  */
@@ -50,23 +52,27 @@ h1{
   /* color: aliceblue; */
 }
   
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .tab-content {
-      display: block;
-      margin-left: 5%;
-      margin-top: 1%;
-    }
-  
-    .tab-list {
-      /* width: 100%; */
-    }
-  
-    .tab-list-item {
-      display: block;
-      padding: 0.75rem;
-    }
-  }
-  
+/* Default styles for larger screens */
+/* ... (your existing styles) ... */
 
-  
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .tabs {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .tab-list,
+  .tab-content {
+    width: 100%; /* Take up full width when in a column layout */
+  }
+
+  .tab-content {
+    order: 2; /* Display .tab-content below .tab-list */
+  }
+
+  .tab-content-item,
+  .tab-list-item {
+    width: 100%; /* Occupy full width on smaller screens */
+  }
+}
+

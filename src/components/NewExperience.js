@@ -41,6 +41,7 @@ function NewExperience() {
         <div className="tab-list-item" label="Suhbah Collective">
         <div className="tab-content">
         <div className="tab-content-item">
+            <h4>Full-Stack Developer <br/>  May 2023 - July 2023</h4>
             <li>Made CRUD API using Node.js, Express.js and MongoDB/Mongoose</li>
             <li>Used GET, POST, PUT and DELETE requests to manipulate data</li>
             <li>Designed UI using React.js and fetched data from API here</li>
@@ -54,6 +55,7 @@ function NewExperience() {
         <div className="tab-list-item" label="Opengenus">
         <div className="tab-content">
         <div className="tab-content-item">
+            <h4>Software Developer Intern <br/>  May 2023 - July 2023</h4>
             <li>Authored 10 highly-viewed blog articles on diverse topics, reaching a wide audience of thousands on the OpenGenus IQ platform: https://iq.opengenus.org/author/noor/</li>
             <li>Designed and implemented a Python language translation program by making API calls to Google Translate API</li>
             <li>Developed a Python, Flask, and HTML-based prime number generator which accepts user input</li>

@@ -113,6 +113,11 @@ function About() {
   width:60%;
   font-size:20px;
   text-align: justify;
+  
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+  
   `
   
   const Tech = styled.p`
@@ -122,6 +127,11 @@ function About() {
   width:35%;
   font-size:20px;
   padding-top: 2%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
   `
     const tech_stack = [
       "Javascript",
