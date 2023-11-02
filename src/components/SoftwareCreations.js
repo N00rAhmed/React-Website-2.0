@@ -236,6 +236,81 @@ function SoftwareCreations() {
                         </a>
                     </div>
                 </div>
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Free Hosting Resources for devs site</SubTitle>
+                    <Des>pending.</Des>
+                    <div className='tech'>
+                        Next.js
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Free-Hosting-Services' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div>
+
+                
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Excel to MongoDB</SubTitle>
+                    <Des>pending.</Des>
+                    <div className='tech'>
+                        TypeScript
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Excel-to-MongoDB-Uploader' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>AI Project ?</SubTitle>
+                    <Des>pending.</Des>
+                    <div className='tech'>
+                        ?
+                    </div>
+                    <div className='github'>
+                        <a href='' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+
+
             </div>
                 </Content>
           </Container>
