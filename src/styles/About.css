@@ -7,7 +7,7 @@
   padding-left: 0;
   /* list-style-type: none; */
   /* display: grid; */
-  grid-template-columns: repeat(3, minmax(130px, 10px));
+  grid-template-columns: repeat(4, minmax(130px, 10px));
 }
 
 
@@ -64,6 +64,28 @@
 .php:hover{
   color: aliceblue;
   background-color: #818cf8;
+}
+.firebase:hover{
+  color: #eac719;
+  background-color: white;
+
+}
+.git:hover{ 
+  background-color: white;
+  color: #e84d31;
+}
+.githubb:hover{
+  background-color: white;
+  color: black;
+}
+.typescript:hover{
+  color: #2f74c0;
+  background-color: white;
+  /* background-color: #2f74c0; */
+}
+.nextjs:hover{
+  background-color: white;
+  color: black;
 }
 
 @media (min-width: 600px) {

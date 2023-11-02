@@ -41,19 +41,19 @@ class SidebarNav extends React.Component {
             <Fade bottom>
 
               <Logo>
-                  <a href='https://github.com/N00rAhmed' target="_blank">
+                  <a className="socialLinks" href='https://github.com/N00rAhmed' target="_blank">
                     <AiFillGithub style={{ fontSize: 30}} />
                   </a>
 
-                  <a href='https://www.linkedin.com/in/noor-ahmed-b762b0225/' target="_blank">
+                  <a className="socialLinks" href='https://www.linkedin.com/in/noor-ahmed-b762b0225/' target="_blank">
                     <AiFillLinkedin style={{ fontSize: 30}} />
                   </a>
 
-                  <a href='https://noor-ahmed.hashnode.dev' target="_blank">
+                  <a className="socialLinks" href='https://noor-ahmed.hashnode.dev' target="_blank">
                     <ImNewspaper style={{ fontSize: 30}} />
                   </a>
 
-                  <a href='mailto:noor.ahmed232003@outlook.com' target="_blank">
+                  <a className="socialLinks" href='mailto:noor.ahmed232003@outlook.com' target="_blank">
                     <AiOutlineMail style={{ fontSize: 30 }} />
                   </a>
                 </Logo>

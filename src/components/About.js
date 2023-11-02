@@ -15,6 +15,10 @@ import { SiCsharp } from "react-icons/si";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa"
+import { SiTypescript } from "react-icons/si"
+import { RiGithubFill } from "react-icons/ri"
 
 // SiSqlite
 // BsFiletypeSql
@@ -49,7 +53,7 @@ function About() {
                         website which was built using MERN stack and also working as a software engineer intern, developing on both client and server side using
                         SERN stack: React.js, Node.js, Express.js and SQL Server.</Content>
                     
-                    <Tech>Here are the technologies that I know how to use:</Tech>
+                    <Tech>Here are some technologies/tool that I know how to use:</Tech>
 
 
                     <Fade bottom>
@@ -72,6 +76,12 @@ function About() {
                                 <SiMicrosoftsqlserver className="sqlserver" style={{height: "50px", borderRadius: "5px", width: "50px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
                                 <SiMysql className="mysql" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
                                 <FaPhp className="php" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <SiFirebase className="firebase" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <FaGitAlt className="git" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}} />
+                                <RiGithubFill className="githubb" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
+                                <SiTypescript className="typescript" style={{height: "50px", width: "50px", borderRadius: "5px", display: "inline-block", transition: "background-color 0.9s ease"}}/>
+
+                                {/* FaGitAlt */}
                                 {/* {tech_stack.map(function (tech_item, i) {
                         return (
                         <li>{tech_item}</li>
