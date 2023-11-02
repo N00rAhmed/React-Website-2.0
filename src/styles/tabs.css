@@ -1,7 +1,11 @@
 h1{
-  color:rgb(109, 216, 219)
-
+  color:rgb(109, 216, 219);
 }
+
+li::marker {
+  color:rgb(109, 216, 219);
+}
+
 
 /* Default styles for larger screens */
 .tab-content {
