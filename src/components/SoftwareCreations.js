@@ -19,7 +19,7 @@ import Fade from 'react-reveal/Fade';
 
 function SoftwareCreations() {
   return (
-      <Fade bottom>
+    //   <Fade bottom>
           <Container>
             <div id="projects">
                     <Title>Software Creations</Title>
@@ -315,7 +315,7 @@ function SoftwareCreations() {
                 </Content>
           </Container>
 
-      </Fade>
+    //   </Fade>
   )
 }
 
