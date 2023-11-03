@@ -36,11 +36,11 @@ const ImgSlider = (props) => {
                         </a>
                     </div> */}
 
-            <div className="icon">
+            {/* <div className="icon">
               <a href="https://flytagcalc.netlify.app" target="_blank">
                 <BsBoxArrowUpRight />
               </a>
-            </div>
+            </div> */}
           </p>
         </a>
       </Wrap>
@@ -50,7 +50,7 @@ const ImgSlider = (props) => {
           <img src={Suhbah} alt="" />
           <p className="image-caption">
             {/* This was made using MERN */}
-            <div className='github'>
+            {/* <div className='github'>
                         <a href='https://github.com/N00rAhmed/MN-Muslim-Website' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
@@ -60,7 +60,7 @@ const ImgSlider = (props) => {
               <a href="https://mnmuslims.netlify.app" target="_blank">
                 <BsBoxArrowUpRight />
               </a>
-            </div>
+            </div> */}
           </p>
 
         </a>
@@ -71,7 +71,7 @@ const ImgSlider = (props) => {
           <img src={Disney} alt="" />
           <p className="image-caption">
             {/* This was made using MERN */}
-            <div className='github'>
+            {/* <div className='github'>
                         <a href='https://github.com/N00rAhmed/DisneyPlus-Clone' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
@@ -81,7 +81,7 @@ const ImgSlider = (props) => {
               <a href="https://disn3y-plus.netlify.app" target="_blank">
                 <BsBoxArrowUpRight />
               </a>
-            </div>
+            </div> */}
           </p>
 
         </a>
@@ -143,49 +143,49 @@ const Wrap = styled.div`
       text-align: center;
     }
 
-    .github{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // padding: 13px;
-        margin-top: -93px;
-        margin-left: 30%;
-        margin-right: 10px;
-        font-size: 20px;
+  //   .github{
+  //       display: flex;
+  //       justify-content: center;
+  //       align-items: center;
+  //       // padding: 13px;
+  //       margin-top: -93px;
+  //       margin-left: 30%;
+  //       margin-right: 10px;
+  //       font-size: 20px;
   
-        a:hover {
-          color: black; /* Updated to black */
-        }
-      }
+  //       a:hover {
+  //         color: black; /* Updated to black */
+  //       }
+  //     }
   
     
 
-    .icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // padding: 13px;
-      // margin-top: -68px;
-      margin-top: -60px;
-      margin-left: 20%;
-      // margin-right: 10px;
-      font-size: 20px;
+  //   .icon {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     // padding: 13px;
+  //     // margin-top: -68px;
+  //     margin-top: -60px;
+  //     margin-left: 20%;
+  //     // margin-right: 10px;
+  //     font-size: 20px;
 
-      a:hover {
-        color: black; /* Updated to black */
-      }
-    }
+  //     a:hover {
+  //       color: black; /* Updated to black */
+  //     }
+  //   }
 
-      .icon a:hover {
-        color: black;
-      }
+  //     .icon a:hover {
+  //       color: black;
+  //     }
 
-      .github a:hover {
-        color: black;
-      }
+  //     .github a:hover {
+  //       color: black;
+  //     }
 
-    }
-  }
+  //   }
+  // }
 `;
 
 export default ImgSlider;

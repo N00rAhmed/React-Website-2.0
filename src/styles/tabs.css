@@ -16,6 +16,8 @@ li::marker {
     /* display: flex; */
     margin-left: 1%;
     /* margin-top: 1%; */
+    font-size: 18px;
+
     width: 80%;
   }
   
@@ -38,19 +40,27 @@ li::marker {
     padding: 0.5rem 0.75rem;
   }
   
+  /* .tab-list-active {
+    background-color: #344354;
+    border-radius: 5px;
+  } */
+ 
+
+
   .tab-list-active {
     background-color: #344354;
-    /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
-    /* backdrop-filter: blur(1px); */
-
-    /* make tarnsparent maybe  */
-
-
-    /* border: 2px solid black; */
-    /* border-radius: 10px; */
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
   }
- 
+  
+  .tab-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+
   .tab-list-item:hover {
     display: inline-block;
     transition: background-color 0.9s ease; /* Define the property you want to transition */
@@ -66,6 +76,8 @@ li::marker {
  .tab-list-item{
   text-align: center;
   color:rgb(109, 216, 219);
+  font-size: 18px;
+
  }
 
 .tab-list-item:hover{

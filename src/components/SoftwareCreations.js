@@ -289,10 +289,10 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>AI Project ?</SubTitle>
+                    <SubTitle>AI Project</SubTitle>
                     <Des>pending.</Des>
                     <div className='tech'>
-                        ?
+                        pending
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">
