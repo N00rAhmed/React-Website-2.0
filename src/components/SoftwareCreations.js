@@ -242,10 +242,10 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>Free Hosting Resources for devs site</SubTitle>
+                    <SubTitle>Free Hosting Resources Website</SubTitle>
                     <Des>pending.</Des>
                     <div className='tech'>
-                        Next.js
+                        Next.js, TypeScript
                     </div>
                     <div className='github'>
                         <a href='https://github.com/N00rAhmed/Free-Hosting-Services' target="_blank">
@@ -268,7 +268,7 @@ function SoftwareCreations() {
                     <SubTitle>Excel to MongoDB</SubTitle>
                     <Des>pending.</Des>
                     <div className='tech'>
-                        TypeScript
+                        React.js, TypeScript, Node.js
                     </div>
                     <div className='github'>
                         <a href='https://github.com/N00rAhmed/Excel-to-MongoDB-Uploader' target="_blank">
