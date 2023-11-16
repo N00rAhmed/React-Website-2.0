@@ -12,18 +12,6 @@ function NewExperience() {
       <Border>
 
       <Tabs>
-        <div className="tab-list-item" label="GirlsandBoysinTech">
-            <div className="tab-content">
-                <div className="tab-content-item">
-                  <h4>Application Developer <br/>  Oct 2023 - present</h4>
-                  {/* <p>Oct 2023 - present</p> */}
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                </div>
-            </div>
-        </div>
 
         <div className="tab-list-item" label="Flytag Flight Support">
         <div className="tab-content">
