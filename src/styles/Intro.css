@@ -15,7 +15,9 @@
   /* color:rgb(95, 223, 223) */
 }
 
-
+.v img{
+  height: 300px;
+}
 
 .iconss{
     display: flex;

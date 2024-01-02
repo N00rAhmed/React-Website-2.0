@@ -60,7 +60,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Task Tracker</SubTitle>
-                    <Des>This application can create and keep track of multiple tasks. Once you have completed a task you can delete it.</Des>
+                    <Des>This application can create and keep track of multiple tasks. Once you have completed a task you can delete it. Login Email: noor.ahmed232003@outlook.com Password: Pass6215@ </Des>
                     <div className='tech'>
                         MongoDB, Express.js, React.JS, Node.js
                     </div>
@@ -83,7 +83,7 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Worklist Manager</SubTitle>
-                    <Des>This app enables users to register, login, manage tasks (create, edit, delete), and mark them as completed or incomplete.</Des>
+                    <Des>This app enables users to register, login, manage tasks (create, edit, delete), and mark them as completed or incomplete. Username: noor, Password: pass</Des>
 
                     <div className='tech'>
                         .NET Framework, Windows Forms, CockroachDB (SQL)
@@ -108,9 +108,9 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>pending</SubTitle>
-                    <Des>currently there isnt anything here but there will be a full-stack deployed php and mysql web app here.</Des>
+                    <Des>pending</Des>
                     <div className='tech'>
-                        php, mysql
+                        asp.net, mongodb/mogoose, next.js, typescript, docker 
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">
@@ -127,6 +127,30 @@ function SoftwareCreations() {
                 </div>
 
 
+
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Excel to MongoDB</SubTitle>
+                    <Des>This application is currently under development, once it is completed a user will be able to input their excel file and have the data sent to their MongoDB database.</Des>
+                    <div className='tech'>
+                        React.js, TypeScript, Node.js, Express.js
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Excel-to-MongoDB-Uploader' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div>
 
 
                 <div className='cards'>
@@ -151,6 +175,7 @@ function SoftwareCreations() {
 
                 </div>
 
+
                 {/* <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
@@ -168,6 +193,8 @@ function SoftwareCreations() {
 
                 </div>
  */}
+
+
 
                 <div className='cards'>
                 <div className='folder'>
@@ -243,9 +270,9 @@ function SoftwareCreations() {
                         <FaRegFolder size={40}/>
                     </div>
                     <SubTitle>Free Hosting Resources Website</SubTitle>
-                    <Des>pending.</Des>
+                    <Des>The website offers hosting for diffrent applications and databases. This was made to help developers deploy and share their creations.</Des>
                     <div className='tech'>
-                        Next.js, TypeScript
+                        Next.js, TypeScript, Tailwind CSS
                     </div>
                     <div className='github'>
                         <a href='https://github.com/N00rAhmed/Free-Hosting-Services' target="_blank">
@@ -253,7 +280,7 @@ function SoftwareCreations() {
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='' target="_blank">
+                        <a href='https://freehostingfordevs.netlify.app' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
@@ -261,27 +288,6 @@ function SoftwareCreations() {
                 </div>
 
                 
-                <div className='cards'>
-                <div className='folder'>
-                        <FaRegFolder size={40}/>
-                    </div>
-                    <SubTitle>Excel to MongoDB</SubTitle>
-                    <Des>pending.</Des>
-                    <div className='tech'>
-                        React.js, TypeScript, Node.js
-                    </div>
-                    <div className='github'>
-                        <a href='https://github.com/N00rAhmed/Excel-to-MongoDB-Uploader' target="_blank">
-                            <AiFillGithub style={{fontsize: 30}} />
-                        </a>
-                    </div>
-                    <div className='icon'>
-                        <a href='' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
-                        </a>
-                    </div>
-
-                </div>
 
 
 
@@ -289,10 +295,10 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>AI Project</SubTitle>
-                    <Des>pending.</Des>
+                    <SubTitle>Pending</SubTitle>
+                    <Des>pending</Des>
                     <div className='tech'>
-                        pending
+                        php, laravel, sqlite
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">

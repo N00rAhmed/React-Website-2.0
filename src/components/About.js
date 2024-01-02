@@ -52,7 +52,7 @@ function About() {
                         allowed me learn and grow in this field. Some of my previous work includes working as a Full-Stack Engineer, developing a community 
                         website which was built using MERN stack and also working as a software engineer intern, developing on both client and server side using
                         SERN stack: React.js, Node.js, Express.js and SQL Server.</Content>
-                    
+
                     <Tech>Here are some technologies/tool that I know how to use:</Tech>
 
 

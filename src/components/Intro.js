@@ -9,6 +9,8 @@ import { MdEmail } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
 
+import Cool from "../images/cool.gif";
+
 import Anime from './Anime.js';
 
 class Intro extends React.Component {
@@ -17,6 +19,11 @@ class Intro extends React.Component {
     <Router>
       <Container>
         <div id='home'>
+        
+        {/* <div className='v'>
+          <img src={Cool} width={"400px"}/>
+        </div> */}
+
           <Title>
             <div className='intro-name'>
               <Typewriter
@@ -26,6 +33,7 @@ class Intro extends React.Component {
                 .start();
               }}
               />
+
             </div>
           
           </Title>
@@ -43,6 +51,7 @@ class Intro extends React.Component {
         </div>
 
       </Container>
+
     </Router>
 
   );
