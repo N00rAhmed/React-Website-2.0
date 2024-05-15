@@ -128,6 +128,71 @@ function SoftwareCreations() {
 
 
 
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>C# App</SubTitle>
+                    <Des>pending</Des>
+                    <div className='tech'>
+                        C# 
+                    </div>
+                    <div className='github'>
+                        <a href='' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Word Combination Generator</SubTitle>
+                    <Des>This Flask applcation can take user input of letters and generate all possible combinations of words using those letters.</Des>
+                    <div className='tech'>
+                        Python, Flask, Javascript, unittest, Docker                        
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Word-Combination-Generator' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='https://word-combination-generator.onrender.com' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Asteroids Game</SubTitle>
+                    <Des>The Java Asteroids Game utilizes classes and objects to create components such as the asteroids, spaceship, bullets.</Des>
+                    <div className='tech'>
+                        Java
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Asteroids-Game' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                </div>
+
 
 
                 <div className='cards'>
@@ -153,7 +218,7 @@ function SoftwareCreations() {
                 </div>
 
 
-                <div className='cards'>
+                {/* <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -173,7 +238,7 @@ function SoftwareCreations() {
                         </a>
                     </div>
 
-                </div>
+                </div> */}
 
 
                 {/* <div className='cards'>
@@ -196,27 +261,6 @@ function SoftwareCreations() {
 
 
 
-                <div className='cards'>
-                <div className='folder'>
-                        <FaRegFolder size={40}/>
-                    </div>
-                    <SubTitle>Image API</SubTitle>
-                    <Des>This API can add images to a MongoDB database and you can search for your images by their ID and have them rendered. For more info please look at the README.MD.</Des>
-                    <div className='tech'>
-                        Node.js, Express.js, MongoDB, Postman
-                    </div>
-                    <div className='github'>
-                        <a href='https://github.com/N00rAhmed/Image-API' target="_blank">
-                            <AiFillGithub style={{fontsize: 30}} />
-                        </a>
-                    </div>
-                    <div className='icon'>
-                        <a href='https://image-api-f8qs.onrender.com' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
-                        </a>
-                    </div>
-
-                </div>
 
 
                 {/* <div className='cards'>
@@ -243,7 +287,7 @@ function SoftwareCreations() {
 
 
 
-                <div className='cards'>
+                {/* <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -262,8 +306,56 @@ function SoftwareCreations() {
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
-                </div>
+                </div> */}
 
+
+                {/* <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Free Hosting Resources Website</SubTitle>
+                    <Des>The website offers hosting for diffrent applications and databases. This was made to help developers deploy and share their creations.</Des>
+                    <div className='tech'>
+                        Next.js, TypeScript, Tailwind CSS
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Free-Hosting-Services' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='https://freehostingfordevs.netlify.app' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div> */}
+
+                
+
+
+
+                {/* <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Pending</SubTitle>
+                    <Des>pending</Des>
+                    <div className='tech'>
+                        php, laravel, sqlite
+                    </div>
+                    <div className='github'>
+                        <a href='' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                        </a>
+                    </div>
+
+                </div> */}
 
                 <div className='cards'>
                 <div className='folder'>
@@ -287,32 +379,28 @@ function SoftwareCreations() {
 
                 </div>
 
-                
-
-
 
                 <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>Pending</SubTitle>
-                    <Des>pending</Des>
+                    <SubTitle>Image API</SubTitle>
+                    <Des>This API can add images to a MongoDB database and you can search for your images by their ID and have them rendered. For more info please look at the README.MD.</Des>
                     <div className='tech'>
-                        php, laravel, sqlite
+                        Node.js, Express.js, MongoDB, Postman
                     </div>
                     <div className='github'>
-                        <a href='' target="_blank">
+                        <a href='https://github.com/N00rAhmed/Image-API' target="_blank">
                             <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
-                        <a href='' target="_blank">
+                        <a href='https://image-api-f8qs.onrender.com' target="_blank">
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
 
                 </div>
-
 
 
 

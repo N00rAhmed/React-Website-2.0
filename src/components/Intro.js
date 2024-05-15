@@ -8,10 +8,10 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
-
 import Cool from "../images/cool.gif";
 
 import Anime from './Anime.js';
+import Gif from '../components/hauptbahnhof.gif';
 
 class Intro extends React.Component {
   render() {
@@ -39,6 +39,10 @@ class Intro extends React.Component {
           </Title>
         </div>
         <div>
+          {/* <Gif /> */}
+          {/* <img src={Gif} height="400" width="100" alt="Description of the GIF" /> */}
+
+
           <Fade bottom>
             <Des>Hello my name is Noor Ahmed and I am looking for a job in software development. I hope you will enjoy my work in both frontend and backend technologies which I will be demonstrating throughout this website.</Des>
               {/*<Des>Hello my name is Noor Ahmed and I am looking for a job in software development. I know how to use a wide range of tech-stacks/technologies and I can also deploy applications which you can view and use on this website.</Des> */}
