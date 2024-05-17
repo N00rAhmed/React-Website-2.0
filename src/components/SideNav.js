@@ -4,6 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 import { ImNewspaper } from 'react-icons/im';
+import { FaYoutube } from "react-icons/fa";
 
 
 // import { ArticleIcon } from '@mui/icons-material/Article';
@@ -53,9 +54,19 @@ class SidebarNav extends React.Component {
                     <ImNewspaper style={{ fontSize: 30}} />
                   </a>
 
+                  <a className="socialLinks" href='https://youtube.com/@tronn62158?si=SDyOiMP9-nwY1IjC' target="_blank">
+                    <FaYoutube style={{ fontSize: 30 }} />
+                  </a>
+
+
                   <a className="socialLinks" href='mailto:noor.ahmed232003@outlook.com' target="_blank">
                     <AiOutlineMail style={{ fontSize: 30 }} />
                   </a>
+
+
+
+{/* FaYoutube */}
+
                 </Logo>
 {/* MdArticle */}
                 {/* <a href='mailto:noor.ahmed232003@outlook.com'

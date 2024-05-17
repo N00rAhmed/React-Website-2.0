@@ -28,7 +28,10 @@
 
 
 }
-  
+.iconss{
+    padding-right: 8%;
+
+}
 a {
     text-decoration: none !important;
     color:rgb(109, 216, 219)
