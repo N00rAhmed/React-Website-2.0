@@ -114,12 +114,12 @@ function SoftwareCreations() {
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">
-                            <AiFillGithub style={{fontsize: 30}} />
+                            {/* <AiFillGithub style={{fontsize: 30}} /> */}
                         </a>
                     </div>
                     <div className='icon'>
                         <a href='' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
                         </a>
                     </div>
 
@@ -139,12 +139,12 @@ function SoftwareCreations() {
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">
-                            <AiFillGithub style={{fontsize: 30}} />
+                            {/* <AiFillGithub style={{fontsize: 30}} /> */}
                         </a>
                     </div>
                     <div className='icon'>
                         <a href='' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
                         </a>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ function SoftwareCreations() {
                     </div>
                     <div className='icon'>
                         <a href='' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
                         </a>
                     </div>
                 </div>
@@ -211,7 +211,7 @@ function SoftwareCreations() {
                     </div>
                     <div className='icon'>
                         <a href='' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
                         </a>
                     </div>
 
