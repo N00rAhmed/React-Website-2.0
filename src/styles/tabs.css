@@ -28,7 +28,8 @@ li::marker {
   .tab-list {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    /* width: 200px; */
+    width: 234px;
     /* border-bottom: 1px solid #ccc; */
     padding-left: 0;
   }

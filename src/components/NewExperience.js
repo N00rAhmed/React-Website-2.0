@@ -13,6 +13,35 @@ function NewExperience() {
 
       <Tabs>
 
+
+      <div className="tab-list-item" label="Sheffield Hallam University">
+        <div className="tab-content">
+            <div className="tab-content-item">
+            <h4>Teaching Assistant <br/>  Oct 2024 - Present</h4>
+            <li>helped computer science/software engineering university students in their work</li>
+            {/* <li>Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests</li> */}
+            {/* <li>Created MSSQL database and imported data from excel spreadsheet into database and queried data</li> */}
+            {/* <li>Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase</li> */}
+        </div>
+        </div>
+        </div>
+
+
+
+      <div className="tab-list-item" label="Lernr AI">
+        <div className="tab-content">
+            <div className="tab-content-item">
+            <h4>Frontend Developer <br/>  July 2024 - Present</h4>
+            <li>Developed a responsive Next.js web application</li>
+            {/* <li>Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests</li> */}
+            {/* <li>Created MSSQL database and imported data from excel spreadsheet into database and queried data</li> */}
+            {/* <li>Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase</li> */}
+        </div>
+        </div>
+        </div>
+
+
+
         <div className="tab-list-item" label="Flytag Flight Support">
         <div className="tab-content">
             <div className="tab-content-item">
