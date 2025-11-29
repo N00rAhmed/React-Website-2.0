@@ -47,11 +47,11 @@ function About() {
                         </AboutMe>
                     </div>
                     
-                    <Content>I graduated from a full-stack web development coding bootcamp in May 2022. I have around 2 years of 
+                    <Content>I graduated from University in Nov 2025 and a full-stack coding bootcamp in May 2022. I have almost 3 years of 
                         proffesional experience in software development. My experience ranges with various organizations and tech-stacks which have
-                        allowed me to learn and grow in this field. Some of my previous work includes working as a Full-Stack Engineer developing a community 
-                        website which was built using MERN stack and also working as a Software Engineer Intern using
-                        SERN stack: React.js, Node.js, Express.js and SQL Server.</Content>
+                        allowed me to learn and grow in this field. Some of my previous work includes working as a Junior Software 
+                        Developer using FastAPI, Next.js and Docker. During this time I developed in both frontend and backend applications giving me a
+                        wide variety of experience in full-stack.</Content>
 
                     <Tech>Here are some technologies/tool that I know how to use:</Tech>
 

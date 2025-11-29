@@ -13,34 +13,33 @@ function NewExperience() {
 
       <Tabs>
 
+      <div className="tab-list-item" label="OrxaGrid">
+        <div className="tab-content">
+            <div className="tab-content-item">
+            <h4>Junior Software Developer <br/>  June 2025 - Nov 2025</h4>
+            <li>Implemented ID collision verification in Python(fastapi), reducing duplicate record errors and improving data consistency across services</li>
+            <li>Developed FastAPI backend integration with microservice delivering fully functional CRUD operation</li>
+            <li>Orchestrated microservice communication using HashiCorp Consul for service discovery and configuration management</li>
+            <li>Investigated opentelemetry instrumentation and log aggregation using Signoz and Logstash</li>
+            <li>Developed Next.js frontend using shadcn creating login, dashboard, side navigation and configured json data in schemas</li>
+        </div>
+        </div>
+        </div>
+
 
       <div className="tab-list-item" label="Sheffield Hallam University">
         <div className="tab-content">
             <div className="tab-content-item">
-            <h4>Teaching Assistant <br/>  Oct 2024 - Present</h4>
-            <li>helped computer science/software engineering university students in their work</li>
+            <h4>Teaching Assistant <br/>  Oct 2024 - Apr 2025</h4>
+            {/* <li>helped computer science/software engineering university students in their work</li> */}
+            <li>Assisted in delivering lab sessions and coursework support for modules involving C# helping students understand
+              core programming concepts</li>
             {/* <li>Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests</li> */}
             {/* <li>Created MSSQL database and imported data from excel spreadsheet into database and queried data</li> */}
             {/* <li>Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase</li> */}
         </div>
         </div>
         </div>
-
-
-
-      <div className="tab-list-item" label="Lernr AI">
-        <div className="tab-content">
-            <div className="tab-content-item">
-            <h4>Frontend Developer <br/>  July 2024 - Present</h4>
-            <li>Developed a responsive Next.js web application</li>
-            {/* <li>Achieved 50% reduction in React code size by optimizing data storage with unique IDs in MSSQL Table and implementing streamlined Node.js API query for efficient data retrieval and integration in React.js via GET requests</li> */}
-            {/* <li>Created MSSQL database and imported data from excel spreadsheet into database and queried data</li> */}
-            {/* <li>Integrated API with MSSQL database using node.js, express.js for routing and used GET requests and query method to access data from DataBase</li> */}
-        </div>
-        </div>
-        </div>
-
-
 
         <div className="tab-list-item" label="Flytag Flight Support">
         <div className="tab-content">

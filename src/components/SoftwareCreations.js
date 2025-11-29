@@ -32,30 +32,8 @@ function SoftwareCreations() {
                 <Content>
                 <div className='container'>
 
+
                 {/* <div className='cards'>
-                    <div className='folder'>
-                        <FaRegFolder size={40}/>
-                    </div>
-                    <SubTitle>CRUD API:</SubTitle>
-                    <Des>This is API can perform CRUD operations to task data from my task tracker application. This is done via GET, POST, PUT and DELETE requests sent to the database.</Des>
-                    <div className='tech'>
-                        Node.JS, Express.js, Mongodb
-                    </div>
-                    <div className='github'>
-                        <a href='https://github.com/N00rAhmed/CRUD-API' target="_blank">
-                            <AiFillGithub style={{fontsize: 30}} />
-                        </a>
-                    </div>
-                    <div className='icon'>
-                        <a href='https://apicrud-n1uz.onrender.com/api/tasks' target="_blank">
-                            <BsBoxArrowUpRight style={{fontsize: 30}} />
-                        </a>
-                    </div>
-
-
-                </div> */}
-
-                <div className='cards'>
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
@@ -74,8 +52,30 @@ function SoftwareCreations() {
                             <BsBoxArrowUpRight style={{fontsize: 30}} />
                         </a>
                     </div>
+                </div> */}
 
+
+                <div className='cards'>
+                <div className='folder'>
+                        <FaRegFolder size={40}/>
+                    </div>
+                    <SubTitle>Data Migration Tool</SubTitle>
+                    <Des>This application can import data into MongoDB by the user providing the mongo uri and the data file. Similarly it can also export data by providing the collection in the UI.</Des>
+                    <div className='tech'>
+                        React.JS, Node.js, Express.js, MongoDB
+                    </div>
+                    <div className='github'>
+                        <a href='https://github.com/N00rAhmed/Import-Export-Tool' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
+                        </a>
+                    </div>
+                    <div className='icon'>
+                        <a href='' target="_blank">
+                            {/* <BsBoxArrowUpRight style={{fontsize: 30}} /> */}
+                        </a>
+                    </div>
                 </div>
+
 
 
                 <div className='cards'>
@@ -107,10 +107,11 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>pending</SubTitle>
+                    <SubTitle>pending(api auto builder)</SubTitle>
                     <Des>pending</Des>
                     <div className='tech'>
-                        asp.net, mongodb/mogoose, next.js, typescript, docker 
+                        pending
+                        {/* asp.net, mongodb/mogoose, next.js, typescript, docker  */}
                     </div>
                     <div className='github'>
                         <a href='' target="_blank">
@@ -132,14 +133,14 @@ function SoftwareCreations() {
                 <div className='folder'>
                         <FaRegFolder size={40}/>
                     </div>
-                    <SubTitle>C# App</SubTitle>
-                    <Des>pending</Des>
+                    <SubTitle>Tetris</SubTitle>
+                    <Des>This is a cli game and currently an ongoing project.</Des>
                     <div className='tech'>
-                        C# 
+                        C++
                     </div>
                     <div className='github'>
-                        <a href='' target="_blank">
-                            {/* <AiFillGithub style={{fontsize: 30}} /> */}
+                        <a href='https://github.com/N00rAhmed/Tetris' target="_blank">
+                            <AiFillGithub style={{fontsize: 30}} />
                         </a>
                     </div>
                     <div className='icon'>
