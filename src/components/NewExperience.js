@@ -16,7 +16,7 @@ function NewExperience() {
       <div className="tab-list-item" label="OrxaGrid">
         <div className="tab-content">
             <div className="tab-content-item">
-            <h4>Junior Software Developer <br/>  June 2025 - Nov 2025</h4>
+            <h4>Junior Software Developer <br/>  June 2025 - Present</h4>
             <li>Implemented ID collision verification in Python(fastapi), reducing duplicate record errors and improving data consistency across services</li>
             <li>Developed FastAPI backend integration with microservice delivering fully functional CRUD operation</li>
             <li>Orchestrated microservice communication using HashiCorp Consul for service discovery and configuration management</li>
